@@ -1,0 +1,570 @@
+[
+    {
+        "id": "PL551",
+        "url": "http://www.saihduero.es/risr/PL551",
+        "station": "Pradosegar, PL-62",
+        "river": "Adaja",
+        "lat": 40.5412706,
+        "lng": -5.07625169
+    },
+    {
+        "id": "PL602",
+        "url": "http://www.saihduero.es/risr/PL602",
+        "station": "Navafrías, PL-74",
+        "river": "Águeda",
+        "lat": 40.26693181,
+        "lng": -6.79441952
+    },
+    {
+        "id": "PL601",
+        "url": "http://www.saihduero.es/risr/PL601",
+        "station": "El Jaque, PL-73",
+        "river": "Águeda",
+        "lat": 40.29529752,
+        "lng": -6.58585733
+    },
+    {
+        "id": "PL031",
+        "url": "http://www.saihduero.es/risr/PL031",
+        "station": "Quintanar de la Sierra, PL-45a",
+        "river": "Arlanza",
+        "lat": 42.03715928,
+        "lng": -3.00451858
+    },
+    {
+        "id": "PL041",
+        "url": "http://www.saihduero.es/risr/PL041",
+        "station": "Alarcia, PL-44",
+        "river": "Arlanzón",
+        "lat": 42.27613654,
+        "lng": -3.27613846
+    },
+    {
+        "id": "PL042",
+        "url": "http://www.saihduero.es/risr/PL042",
+        "station": "Pineda de la Sierra, PL-45",
+        "river": "Arlanzón",
+        "lat": 42.19729006,
+        "lng": -3.30326539
+    },
+    {
+        "id": "PL213",
+        "url": "http://www.saihduero.es/risr/PL213",
+        "station": "Tonín de Arbas, PL-28",
+        "river": "Bernesga",
+        "lat": 43.00120382,
+        "lng": -5.69261394
+    },
+    {
+        "id": "PL212",
+        "url": "http://www.saihduero.es/risr/PL212",
+        "station": "Poladura de la Tercia, PL-27",
+        "river": "Bernesga",
+        "lat": 42.94493807,
+        "lng": -5.72368084
+    },
+    {
+        "id": "PL214",
+        "url": "http://www.saihduero.es/risr/PL214",
+        "station": "Velilla de la Tercia, PL-29",
+        "river": "Bernesga",
+        "lat": 42.94646229,
+        "lng": -5.63672293
+    },
+    {
+        "id": "PL211",
+        "url": "http://www.saihduero.es/risr/PL211",
+        "station": "Geras, PL-26",
+        "river": "Bernesga",
+        "lat": 42.89594908,
+        "lng": -5.77037548
+    },
+    {
+        "id": "PL065",
+        "url": "http://www.saihduero.es/risr/PL065",
+        "station": "Brañosera, PL-4301",
+        "river": "Camesa",
+        "lat": 42.9414247,
+        "lng": -4.29768193
+    },
+    {
+        "id": "PL101",
+        "url": "http://www.saihduero.es/risr/PL101",
+        "station": "Cardaño de Arriba, PL-3901",
+        "river": "Cardaño",
+        "lat": 42.97300157,
+        "lng": -4.75678555
+    },
+    {
+        "id": "PL102",
+        "url": "http://www.saihduero.es/risr/PL102",
+        "station": "Vidrieros, PL-40",
+        "river": "Carrión",
+        "lat": 42.93739583,
+        "lng": -4.63656007
+    },
+    {
+        "id": "PL222",
+        "url": "http://www.saihduero.es/risr/PL222",
+        "station": "Casares de Arbás, PL-25",
+        "river": "Casares",
+        "lat": 42.9443922,
+        "lng": -5.75138122
+    },
+    {
+        "id": "PL192",
+        "url": "http://www.saihduero.es/risr/PL192",
+        "station": "Redipuertas, PL-33b",
+        "river": "Curueño",
+        "lat": 43.03053409,
+        "lng": -5.44343553
+    },
+    {
+        "id": "PL191",
+        "url": "http://www.saihduero.es/risr/PL191",
+        "station": "Villaverde de la Cuerna, PL-33a",
+        "river": "Curueño",
+        "lat": 43.00301925,
+        "lng": -5.39217827
+    },
+    {
+        "id": "PL272",
+        "url": "http://www.saihduero.es/risr/PL272",
+        "station": "Pobladura de la Sierra, PL-11",
+        "river": "Duerna",
+        "lat": 42.41884389,
+        "lng": -6.44670486
+    },
+    {
+        "id": "PL273",
+        "url": "http://www.saihduero.es/risr/PL273",
+        "station": "Filiel, PL-12",
+        "river": "Duerna",
+        "lat": 42.37609413,
+        "lng": -6.3389852
+    },
+    {
+        "id": "PL271",
+        "url": "http://www.saihduero.es/risr/PL271",
+        "station": "Luyego de Somoza, PL-10",
+        "river": "Duerna",
+        "lat": 42.37839237,
+        "lng": -6.23697893
+    },
+    {
+        "id": "PL002",
+        "url": "http://www.saihduero.es/risr/PL002",
+        "station": "Covaleda, PL-47",
+        "river": "Duero",
+        "lat": 41.95236236,
+        "lng": -2.87212741
+    },
+    {
+        "id": "PL001",
+        "url": "http://www.saihduero.es/risr/PL001",
+        "station": "Pinar Grande, PL-46",
+        "river": "Duero",
+        "lat": 41.88439717,
+        "lng": -2.88056748
+    },
+    {
+        "id": "PL542",
+        "url": "http://www.saihduero.es/risr/PL542",
+        "station": "Rivera de los Molinos, PL-59",
+        "river": "Eresma",
+        "lat": 40.82802777,
+        "lng": -4.13629466
+    },
+    {
+        "id": "PL281",
+        "url": "http://www.saihduero.es/risr/PL281",
+        "station": "Truchillas, PL-6",
+        "river": "Eria",
+        "lat": 42.23574558,
+        "lng": -6.46218284
+    },
+    {
+        "id": "PL282",
+        "url": "http://www.saihduero.es/risr/PL282",
+        "station": "Corporales, PL-7",
+        "river": "Eria",
+        "lat": 42.30677608,
+        "lng": -6.45437057
+    },
+    {
+        "id": "PL283",
+        "url": "http://www.saihduero.es/risr/PL283",
+        "station": "Nogarejas, PL-8",
+        "river": "Eria",
+        "lat": 42.21681448,
+        "lng": -6.16752945
+    },
+    {
+        "id": "PL284",
+        "url": "http://www.saihduero.es/risr/PL284",
+        "station": "Castrocalbón, PL-9.1",
+        "river": "Eria",
+        "lat": 42.2221173,
+        "lng": -5.96774776
+    },
+    {
+        "id": "PL171",
+        "url": "http://www.saihduero.es/risr/PL171",
+        "station": "Ermita de Riosol, PL-34",
+        "river": "Esla",
+        "lat": 43.07454756,
+        "lng": -5.21391081
+    },
+    {
+        "id": "PL172",
+        "url": "http://www.saihduero.es/risr/PL172",
+        "station": "Maraña, PL-35",
+        "river": "Esla",
+        "lat": 43.05044409,
+        "lng": -5.17439179
+    },
+    {
+        "id": "PL173",
+        "url": "http://www.saihduero.es/risr/PL173",
+        "station": "Polvoredo, PL-36",
+        "river": "Esla",
+        "lat": 43.05547343,
+        "lng": -5.09942121
+    },
+    {
+        "id": "PL581",
+        "url": "http://www.saihduero.es/risr/PL581",
+        "station": "Peña de Francia, PL-71",
+        "river": "Huebra",
+        "lat": 40.53373691,
+        "lng": -6.15610296
+    },
+    {
+        "id": "PL232",
+        "url": "http://www.saihduero.es/risr/PL232",
+        "station": "Peñalba de Cilleros, PL-20a",
+        "river": "Luna",
+        "lat": 42.93063726,
+        "lng": -6.15538586
+    },
+    {
+        "id": "PL234",
+        "url": "http://www.saihduero.es/risr/PL234",
+        "station": "Torrestio, PL-22",
+        "river": "Luna",
+        "lat": 43.04084164,
+        "lng": -6.03487708
+    },
+    {
+        "id": "PL233",
+        "url": "http://www.saihduero.es/risr/PL233",
+        "station": "Torre de Babia, PL-21",
+        "river": "Luna",
+        "lat": 42.9779535,
+        "lng": -6.11104783
+    },
+    {
+        "id": "PL231",
+        "url": "http://www.saihduero.es/risr/PL231",
+        "station": "Huergas, PL-20",
+        "river": "Luna",
+        "lat": 42.9553046,
+        "lng": -6.09790451
+    },
+    {
+        "id": "PL295",
+        "url": "http://www.saihduero.es/risr/PL295",
+        "station": "Villarejo de la Sierra, PL-5.1",
+        "river": "Negro",
+        "lat": 42.12268598,
+        "lng": -6.45279597
+    },
+    {
+        "id": "PL043",
+        "url": "http://www.saihduero.es/risr/PL043",
+        "station": "Rioparaíso, PL-4303",
+        "river": "Odra",
+        "lat": 42.6105033,
+        "lng": -4.07369138
+    },
+    {
+        "id": "PL251",
+        "url": "http://www.saihduero.es/risr/PL251",
+        "station": "Fasgar, PL-17",
+        "river": "Omaña",
+        "lat": 42.81146301,
+        "lng": -6.22873569
+    },
+    {
+        "id": "PL255",
+        "url": "http://www.saihduero.es/risr/PL255",
+        "station": "Rodicol, PL-19a",
+        "river": "Omaña",
+        "lat": 42.84631759,
+        "lng": -6.11578332
+    },
+    {
+        "id": "PL253",
+        "url": "http://www.saihduero.es/risr/PL253",
+        "station": "Murias de Paredes, PL-18",
+        "river": "Omaña",
+        "lat": 42.84968302,
+        "lng": -6.18743175
+    },
+    {
+        "id": "PL254",
+        "url": "http://www.saihduero.es/risr/PL254",
+        "station": "Arienza, PL-19",
+        "river": "Omaña",
+        "lat": 42.8168818,
+        "lng": -6.01191737
+    },
+    {
+        "id": "PL174",
+        "url": "http://www.saihduero.es/risr/PL174",
+        "station": "Casasuertes, PL-37",
+        "river": "Orza",
+        "lat": 43.06027913,
+        "lng": -4.9478884
+    },
+    {
+        "id": "PL532",
+        "url": "http://www.saihduero.es/risr/PL532",
+        "station": "Sotosalbos, PL-56",
+        "river": "Pirón",
+        "lat": 41.0310461,
+        "lng": -3.94876919
+    },
+    {
+        "id": "PL061",
+        "url": "http://www.saihduero.es/risr/PL061",
+        "station": "Abadía de Lebanza, PL-41",
+        "river": "Pisuerga",
+        "lat": 42.9647152,
+        "lng": -4.53664328
+    },
+    {
+        "id": "PL063",
+        "url": "http://www.saihduero.es/risr/PL063",
+        "station": "Casavegas, PL-42a",
+        "river": "Pisuerga",
+        "lat": 43.02341342,
+        "lng": -4.5140148
+    },
+    {
+        "id": "PL064",
+        "url": "http://www.saihduero.es/risr/PL064",
+        "station": "Santa María de Redondo, PL-43",
+        "river": "Pisuerga",
+        "lat": 42.99143794,
+        "lng": -4.42922726
+    },
+    {
+        "id": "PL181",
+        "url": "http://www.saihduero.es/risr/PL181",
+        "station": "Cofiñal, PL-33c",
+        "river": "Porma",
+        "lat": 43.06068898,
+        "lng": -5.2808543
+    },
+    {
+        "id": "PL512",
+        "url": "http://www.saihduero.es/risr/PL512",
+        "station": "Riaza, PL-52",
+        "river": "Riaza",
+        "lat": 41.28282128,
+        "lng": -3.4399392
+    },
+    {
+        "id": "PL511",
+        "url": "http://www.saihduero.es/risr/PL511",
+        "station": "El Muyo, PL-51.1",
+        "river": "Riaza",
+        "lat": 41.2889587,
+        "lng": -3.31870267
+    },
+    {
+        "id": "PL293",
+        "url": "http://www.saihduero.es/risr/PL293",
+        "station": "San Martín de Castañeda, PL-3",
+        "river": "Tera",
+        "lat": 42.13461158,
+        "lng": -6.73326788
+    },
+    {
+        "id": "PL292",
+        "url": "http://www.saihduero.es/risr/PL292",
+        "station": "Ribadelago, PL-2",
+        "river": "Tera",
+        "lat": 42.1210206,
+        "lng": -6.75403433
+    },
+    {
+        "id": "PL004",
+        "url": "http://www.saihduero.es/risr/PL004",
+        "station": "Ventosa de la Sierra, PL-50",
+        "river": "Tera (Soria)",
+        "lat": 41.94690772,
+        "lng": -2.35121012
+    },
+    {
+        "id": "PL003",
+        "url": "http://www.saihduero.es/risr/PL003",
+        "station": "Valdeavellano de Tera, PL-49",
+        "river": "Tera (Soria)",
+        "lat": 41.94922795,
+        "lng": -2.56637936
+    },
+    {
+        "id": "PL201",
+        "url": "http://www.saihduero.es/risr/PL201",
+        "station": "Valporquero, PL-30",
+        "river": "Torío",
+        "lat": 42.90662355,
+        "lng": -5.55509706
+    },
+    {
+        "id": "PL202",
+        "url": "http://www.saihduero.es/risr/PL202",
+        "station": "Piedrafita, PL-31",
+        "river": "Torío",
+        "lat": 43.01334939,
+        "lng": -5.59608589
+    },
+    {
+        "id": "PL204",
+        "url": "http://www.saihduero.es/risr/PL204",
+        "station": "Correcillas, PL-33",
+        "river": "Torío",
+        "lat": 42.88405507,
+        "lng": -5.46116565
+    },
+    {
+        "id": "PL571",
+        "url": "http://www.saihduero.es/risr/PL571",
+        "station": "La Herguijuela, PL-64",
+        "river": "Tormes",
+        "lat": 40.40837723,
+        "lng": -5.27421361
+    },
+    {
+        "id": "PL574",
+        "url": "http://www.saihduero.es/risr/PL574",
+        "station": "Hoyos del Espino, PL-67",
+        "river": "Tormes",
+        "lat": 40.29398872,
+        "lng": -5.2173509
+    },
+    {
+        "id": "PL573",
+        "url": "http://www.saihduero.es/risr/PL573",
+        "station": "Barajas, PL-66",
+        "river": "Tormes",
+        "lat": 40.36842178,
+        "lng": -5.14728856
+    },
+    {
+        "id": "PL577",
+        "url": "http://www.saihduero.es/risr/PL577",
+        "station": "Solana de Ávila, PL-70",
+        "river": "Tormes",
+        "lat": 40.30694439,
+        "lng": -5.65621974
+    },
+    {
+        "id": "PL576",
+        "url": "http://www.saihduero.es/risr/PL576",
+        "station": "Navalonguilla, PL-69",
+        "river": "Tormes",
+        "lat": 40.27495946,
+        "lng": -5.48725076
+    },
+    {
+        "id": "PL575",
+        "url": "http://www.saihduero.es/risr/PL575",
+        "station": "Bohoyo, PL-68.1",
+        "river": "Tormes",
+        "lat": 40.31148966,
+        "lng": -5.44274708
+    },
+    {
+        "id": "PL261",
+        "url": "http://www.saihduero.es/risr/PL261",
+        "station": "Barrios del Nistoso, PL-16a",
+        "river": "Tuerto",
+        "lat": 42.69476837,
+        "lng": -6.12455846
+    },
+    {
+        "id": "PL262",
+        "url": "http://www.saihduero.es/risr/PL262",
+        "station": "Viforcos, PL-15",
+        "river": "Tuerto",
+        "lat": 42.519211,
+        "lng": -6.24289409
+    },
+    {
+        "id": "PL265",
+        "url": "http://www.saihduero.es/risr/PL265",
+        "station": "Rabanal del Camino, PL-1401",
+        "river": "Tuerto",
+        "lat": 42.4859775,
+        "lng": -6.27570232
+    },
+    {
+        "id": "PL263",
+        "url": "http://www.saihduero.es/risr/PL263",
+        "station": "Brañuelas, PL-16",
+        "river": "Tuerto",
+        "lat": 42.63451334,
+        "lng": -6.19940512
+    },
+    {
+        "id": "PL044",
+        "url": "http://www.saihduero.es/risr/PL044",
+        "station": "Quintanilla de Sobresierra, PL-4305",
+        "river": "Ubierna",
+        "lat": 42.58095645,
+        "lng": -3.70314205
+    },
+    {
+        "id": "PL051",
+        "url": "http://www.saihduero.es/risr/PL051",
+        "station": "Tobes, PL-4306",
+        "river": "Ubierna",
+        "lat": 42.48362925,
+        "lng": -3.57955152
+    },
+    {
+        "id": "PL045",
+        "url": "http://www.saihduero.es/risr/PL045",
+        "station": "Urbel del Castillo, PL-4304",
+        "river": "Ubierna",
+        "lat": 42.62481429,
+        "lng": -3.84198376
+    },
+    {
+        "id": "PL052",
+        "url": "http://www.saihduero.es/risr/PL052",
+        "station": "Fresno de Rodilla, PL-4307",
+        "river": "Vena",
+        "lat": 42.41763437,
+        "lng": -3.49489522
+    },
+    {
+        "id": "PL543",
+        "url": "http://www.saihduero.es/risr/PL543",
+        "station": "El Espinar, PL-60",
+        "river": "Voltoya",
+        "lat": 40.67359862,
+        "lng": -4.37851529
+    },
+    {
+        "id": "PL175",
+        "url": "http://www.saihduero.es/risr/PL175",
+        "station": "Llánaves de la Reina, PL-38",
+        "river": "Yuso",
+        "lat": 43.0524693,
+        "lng": -4.79732554
+    }
+]
