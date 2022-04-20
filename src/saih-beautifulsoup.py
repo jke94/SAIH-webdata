@@ -2,15 +2,20 @@ from bs4 import BeautifulSoup
 import urllib3
 import json
 import pandas as pd
+import threading
+import os 
+import time
 
 def WebSiteDataScraping(target_list, data_title, data, urlSaih):
     for i in range(len(target_list)):
-        print(data_title[i], ':', urlSaih + target_list[i].attrs["href"])
-        print("Data from: ", data[index]['station'])
-        
-        GetAndPrintDataframe(urlSaih + target_list[i].attrs["href"])
+        urlWrapping = urlSaih + target_list[i].attrs["href"]
 
-def GetAndPrintDataframe(url, printDataframe=True):
+        print("Data from: ", urlWrapping, data)
+        
+        fileName = data['id'] + '-' + data_title[i]
+        GetAndPrintDataframe(urlWrapping, fileName)
+
+def GetAndPrintDataframe(url, fileName, printDataframe=True):
     dataframes = pd.read_html(
             url,
             decimal=',',
@@ -18,6 +23,9 @@ def GetAndPrintDataframe(url, printDataframe=True):
 
     if(printDataframe):
         print(dataframes[0].describe())
+
+    file = '../data/csv/' + fileName + '.csv'
+    dataframes[0].to_csv(file, index=False)
 
 def DataScraping(n_datasets, target_list, data, urlSaih):
     
@@ -48,29 +56,46 @@ def DataScraping(n_datasets, target_list, data, urlSaih):
             urlSaih=urlSaih),
     }.get(n_datasets, lambda: None)
 
+def worker(url, index):
+    # Get URL and extract the 'href' attribute to build the URL for each dataset.
+    response = http.request('get', url)
+    soup = BeautifulSoup(response.data, "html.parser")
+    target_list = soup.find_all("a", {"class": "mdi mdi-chart-histogram"})
+
+    print(' - URL [', index, 'of', len(data),'] :', data[index]['url'],
+    ' | DATASETS: ', len(target_list))
+    
+    DataScraping(
+            n_datasets=len(target_list),
+            target_list=target_list,
+            data=data[index], 
+            urlSaih=urlSAIH)()
+    # count = count + 1
+
 if __name__ == "__main__":
+
+    start = time.time()
+
+    os.makedirs('../data/csv', exist_ok=True) 
 
     urlSAIH = "http://www.saihduero.es/"
 
-    with open('gauging-station.json', 'r') as file:
+    with open('..\data\gauging-station.json', 'r', encoding="utf8") as file:
         data = json.load(file)
 
     count = 1
+    threads = []
+
     http = urllib3.PoolManager()
 
-    for index in range(len(data)):  
-        # Get URL and extract the 'href' attribute to build the URL for each dataset.
-        response = http.request('get', data[index]['url'])
-        soup = BeautifulSoup(response.data, "html.parser")
-        target_list = soup.find_all("a", {"class": "mdi mdi-chart-histogram"})
+    for index in range(len(data)):
+        t = threading.Thread(target=worker, args=(data[index]['url'], index,))
+        threads.append(t)
+        t.start()
 
-        print(' - URL [', count, 'of', len(data),'] :', data[index]['url'],
-        ' | DATASETS: ', len(target_list))
-        
-        DataScraping(
-                n_datasets=len(target_list),
-                target_list=target_list,
-                data=data, 
-                urlSaih=urlSAIH)()
+    for item in threads:
+        item.join()
 
-        count = count + 1
+    end = time.time()
+
+    print('Program execution time:' , end-start)
