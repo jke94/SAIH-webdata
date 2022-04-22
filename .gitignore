@@ -133,3 +133,7 @@ geckodriver
 
 # Data
 *.csv
+
+# Images
+*.png
+*.jpg
