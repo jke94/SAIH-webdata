@@ -53,7 +53,7 @@ def GetPluviometryStatistics(rainGauges):
     '''
 
     # Crete the folder to save the csv data.
-    pathFolder = '../../data/saih-data-scraper/pluviometry/'
+    pathFolder = './data/saih-data-scraper/pluviometry/'
 
     os.makedirs(pathFolder, exist_ok=True)
 
@@ -97,7 +97,7 @@ def GetTemperatureStatistics(rainGauges):
     '''
 
     # Crete the folder to save the csv data.
-    pathFolder = '../../data/saih-data-scraper/temperature/'
+    pathFolder = './data/saih-data-scraper/temperature/'
 
     os.makedirs(pathFolder, exist_ok=True)
 
