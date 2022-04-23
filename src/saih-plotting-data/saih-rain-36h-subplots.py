@@ -1,4 +1,3 @@
-from time import time
 import matplotlib.pyplot as plt
 import pandas as pd
 from datetime import datetime
@@ -25,7 +24,7 @@ now = datetime.now()
 dataframes = []
 
 for i in range(len(nombres)):
-    csv_fileName = '../data/statistics/pluviometry/' + nombres[i].replace(' ','-') + '.csv'
+    csv_fileName = '../../data/saih-data-scraper/pluviometry/' + nombres[i].replace(' ','-') + '.csv'
 
     dataframes.append(pd.read_csv(csv_fileName))
 
@@ -103,4 +102,4 @@ for i in range(nHours):
                 horizontalalignment='center')
 
 fig.tight_layout()
-fig.savefig('../images/saih-rain24h-'+ now.strftime("%d-%m-%y_%Hh") +'.png')
+fig.savefig('../images/saih-rain-36h-'+ now.strftime("%d-%m-%y_%Hh") +'.png')
