@@ -79,7 +79,7 @@ if __name__ == "__main__":
 
     urlSAIH = "http://www.saihduero.es/"
 
-    with open('..\data\gauging-station.json', 'r', encoding="utf8") as file:
+    with open('../../data/gauging-station.json', 'r', encoding="utf8") as file:
         data = json.load(file)
 
     count = 1
