@@ -1,5 +1,12 @@
 import pandas
 import os
+from enum import IntEnum
+
+class RainGaugeStatistics(IntEnum):
+        LEVEL = 0
+        CAUDAL = 1
+        TEMPERATURE = 2
+        PLUVIOMETRY = 3
 
 class RainGauge:
         '''
@@ -28,6 +35,100 @@ def RenameDfColumns(df):
                         'Pluviometría (l/m2)', 'Pluviometry (l/m2)', regex=False)
         
         return df
+
+def GetTypeOfStatistics(statisticsType):
+    '''
+        Returns an string about the type of statistics that we want.
+    '''
+    return {
+        0: 'Level',
+        1: 'Caudal',
+        2: 'Temperature',
+        3: 'Pluviometry',
+    }.get(statisticsType, 'None')
+
+def GetStatistics(option, rainGaugesList):
+        return {
+                RainGaugeStatistics.LEVEL: lambda: None,   # TODO: Implement in the future.
+                RainGaugeStatistics.CAUDAL: lambda: None,   # TODO: Implement in the future.
+                RainGaugeStatistics.TEMPERATURE: lambda: GetTemperatureStatistics(rainGaugesList),
+                RainGaugeStatistics.PLUVIOMETRY: lambda: GetPluviometryStatistics(rainGaugesList),
+        }.get(option, lambda: None)
+
+def GetPluviometryStatistics(rainGauges):
+        
+        # Crete the folder to save the csv data.
+        pathFolder = '../data/statistics/pluviometry/'
+
+        os.makedirs(pathFolder, exist_ok=True)
+
+        # Url on which to extract the data.
+        url = ''
+        typeOfStatistics = GetTypeOfStatistics(int(RainGaugeStatistics.PLUVIOMETRY))
+        
+        # Wrapping data
+        try:
+                for index in range(len(rainGauges)):
+                        
+                        url = rainGauges[index].urlPluviometry
+
+                        # Returns a list with one dataframes.
+                        dataframe = pandas.read_html(
+                                url, 
+                                decimal=',',
+                                thousands='.')[0]
+                        
+                        RenameDfColumns(dataframe)
+
+                        # Print information about dataframe.
+                        print("Data from: ", rainGauges[index].place)
+                        print(dataframe)
+
+                        # Sava dataframe as csv file.
+                        fileName = pathFolder + typeOfStatistics + '-' + \
+                        rainGauges[index].place.replace(' ','-') + '.csv'
+                        dataframe.to_csv(fileName, index=False)
+
+        except Exception as e:
+                print('ERROR!:', e)
+                print('ERROR with url', url)
+
+def GetTemperatureStatistics(rainGauges):
+        # Crete the folder to save the csv data.
+        pathFolder = '../data/statistics/temperature/'
+
+        os.makedirs(pathFolder, exist_ok=True)
+
+        # Url on which to extract the data.
+        url = ''
+        typeOfStatistics = GetTypeOfStatistics(int(RainGaugeStatistics.TEMPERATURE))
+        
+        # Wrapping data
+        try:
+                for index in range(len(rainGauges)):
+                        
+                        url = rainGauges[index].urlTemperature
+
+                        # Returns a list with one dataframes.
+                        dataframe = pandas.read_html(
+                                url, 
+                                decimal=',',
+                                thousands='.')[0]
+                        
+                        RenameDfColumns(dataframe)
+
+                        # Print information about dataframe.
+                        print("Data from: ", rainGauges[index].place)
+                        print(dataframe)
+
+                        # Sava dataframe as csv file.
+                        fileName = pathFolder + typeOfStatistics + '-' + \
+                        rainGauges[index].place.replace(' ','-') + '.csv'
+                        dataframe.to_csv(fileName, index=False)
+
+        except Exception as e:
+                print('ERROR!:', e)
+                print('ERROR with url', url)
 
 if __name__ == "__main__":
 
@@ -63,35 +164,6 @@ if __name__ == "__main__":
                         urlPluviometry='http://www.saihduero.es/risr/PL281/historico/xADTQNURfFDOywEU',
                         urlTemperature='http://www.saihduero.es/risr/PL281/historico/xATRUFURfFDOywEU'))
         
-
-        # Crete the folder to save the csv data.
-        os.makedirs('../data/rain', exist_ok=True)
-
-        # Url on which to extract the data.
-        url = ''
-
-        # Wrapping data
-        try:
-                for index in range(len(rainGauges)):
-                        
-                        url = rainGauges[index].urlPluviometry
-
-                        # Returns a list with one dataframes.
-                        dataframe = pandas.read_html(
-                                rainGauges[index].urlPluviometry, 
-                                decimal=',',
-                                thousands='.')[0]
-                        
-                        RenameDfColumns(dataframe)
-
-                        # Print information about dataframe.
-                        print("Data from: ", rainGauges[index].place)
-                        print(dataframe)
-
-                        # Sava dataframe as csv file.
-                        fileName = '../data/rain/' + rainGauges[index].place.replace(' ','-') + '.csv'
-                        dataframe.to_csv(fileName, index=False)
-
-        except Exception as e:
-                print('ERROR!:', e)
-                print('ERROR with url', url)
+        
+        GetStatistics(option=int(RainGaugeStatistics.PLUVIOMETRY),rainGaugesList=rainGauges)()
+        GetStatistics(option=int(RainGaugeStatistics.TEMPERATURE),rainGaugesList=rainGauges)()
