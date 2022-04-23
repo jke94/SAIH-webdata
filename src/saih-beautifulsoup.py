@@ -29,7 +29,7 @@ def GetAndPrintDataframe(url, fileName, printDataframe=True):
 
 def DataScraping(n_datasets, target_list, data, urlSaih):
     
-    # Number of diferents metrics by URL.
+    # Number of differents metrics by URL.
 
     dataSetA = ['Level', 'Caudal', 'Temperature', 'Pluviometry']
     dataSetB = ['Level', 'Caudal', 'Temperature']
@@ -70,7 +70,6 @@ def worker(url, index):
             target_list=target_list,
             data=data[index], 
             urlSaih=urlSAIH)()
-    # count = count + 1
 
 if __name__ == "__main__":
 
