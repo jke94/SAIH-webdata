@@ -19,6 +19,15 @@ def RenameDfColumns(df):
             df.columns = df.columns.str.replace(
                     'Pluviometría (l/m2)', 'Pluviometry (l/m2)', regex=False)
 
+    if ('Temperatura ambiente (°C)' in df.columns):
+            df.columns = df.columns.str.replace(
+                    'Temperatura ambiente (°C)', 'Temperatura ambiente (ºC)', regex=False)
+
+    if ('Temperatura ambiente (oC)' in df.columns):
+        df.columns = df.columns.str.replace(
+                    'Temperatura ambiente (oC)', 'Temperatura ambiente (ºC)', regex=False)
+
+
     return df
 
 def GetTypeOfStatistics(statisticsType):
