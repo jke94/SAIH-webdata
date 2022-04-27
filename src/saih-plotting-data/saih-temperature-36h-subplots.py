@@ -1,4 +1,3 @@
-from unicodedata import name
 import matplotlib.pyplot as plt
 import pandas as pd
 from datetime import datetime
@@ -6,73 +5,83 @@ from datetime import datetime
 def GetSubPlotTittle(place, hours, array):
     title = place + ' ' + \
             '(In the last ' + \
-            str(hours) + 'h: '+ \
+            str(hours) + 'h average: '+ \
             "{:.2f}".format(sum(array)/hours) + ' ºC)'
 
     return title
 
-nombres = [
-        'Temperature-Velilla de La Valduerna',  # A
-        'Temperature-Morla de la Valderia',     # B
-        'Temperature-Nogarejas',                # C
-        'Temperature-Castrocalbon',             # D
-        'Temperature-Corporales',               # E
-        'Temperature-Truchillas'                # F
+def CreatePlotTittle():
+
+    tittle = 'Temperatura ambiente (ºC) - Sistema Automático de Información Hidrológica (SAIH) (Generation Time: ' \
+        + str(now.strftime("%d/%m/%y, %H:%M:%S")) + ') ' + 'Author: @JaviKarra94'
+
+    return tittle
+
+if __name__ == "__main__":
+
+    nombres = [
+            'Temperature-Velilla de La Valduerna',
+            'Temperature-Morla de la Valderia',
+            'Temperature-Nogarejas',
+            'Temperature-Castrocalbon',
+            'Temperature-Corporales',
+            'Temperature-Truchillas'
+        ]
+
+    places = [
+        'Velilla de La Valduerna',
+        'Morla de La Valederia',
+        'Nogarejas',
+        'Castrocalbon',
+        'Corporales',
+        'Truchillas',
     ]
 
-places = [
-    'Velilla de La Valduerna',
-    'Morla de La Valederia',
-    'Nogarejas',
-    'Castrocalbon',
-    'Corporales',
-    'Truchillas',
-]
+    nHours = 36
+    nColsPlot = 3
+    nRowsPlot = 2
+    x = []
+    ys = []
+    dataframes = []
 
-nHours = 36
-nColsPlot = 3
-nRowsPlot = 2
+    count = 0
+    now = datetime.now()
 
-now = datetime.now()
-dataframes = []
+    for i in range(len(nombres)):
+        csv_fileName = './data/saih-data-scraper/temperature/' + nombres[i].replace(' ','-') + '.csv'
 
-for i in range(len(nombres)):
-    csv_fileName = './data/saih-data-scraper/temperature/' + nombres[i].replace(' ','-') + '.csv'
+        dataframes.append(pd.read_csv(csv_fileName))
 
-    dataframes.append(pd.read_csv(csv_fileName))
+    xDateTime = dataframes[0]['Datetime'].tail(nHours).values
 
-x = []
-ys = []
-xDateTime = dataframes[0]['Datetime'].tail(nHours).values
+    for i in range(len(xDateTime)):
+        date = datetime.strptime(xDateTime[i], '%d/%m/%Y %H:%M')
+        x.append(date.strftime("%d/%m %HH"))
 
-count = 0
+    for i in range(len(places)):
+        ys.append(dataframes[count]['Temperatura ambiente (ºC)'].tail(nHours).values)
+        count = count + 1
 
-for i in range(len(xDateTime)):
-    date = datetime.strptime(xDateTime[i], '%d/%m/%Y %H:%M')
-    x.append(date.strftime("%d/%m %HH"))
+    # Plot
+    fig, axs = plt.subplots(nrows=nRowsPlot, ncols=nColsPlot, figsize=(28, 12), sharey=True)
 
-for i in range(len(places)):
-    ys.append(dataframes[count]['Temperatura ambiente (ºC)'].tail(nHours).values)
-    count = count + 1
+    fig.suptitle(GetSubPlotTittle, fontsize=16)
 
-# Plot
-fig, axs = plt.subplots(nrows=nRowsPlot, ncols=nColsPlot, figsize=(28, 12), sharey=True)
-plotTittle = 'Temperatura ambiente (ºC) - Sistema Automático de Información Hidrológica (SAIH) (Generation Time: ' \
-    + str(now.strftime("%d/%m/%y, %H:%M:%S")) + ') ' + 'Author: @JaviKarra94'
-fig.suptitle(plotTittle, fontsize=16)
+    for i in range (nRowsPlot):
+        for j in range(nColsPlot):
 
-for i in range (nRowsPlot):
-    for j in range(nColsPlot):
-        axs[i,j].plot(x, ys[i * nColsPlot + j])
-        axs[i,j].grid(axis='y')
-        axs[i,j].set_xlabel(GetSubPlotTittle(places[i * nColsPlot + j], nHours, ys[i * nColsPlot + j]), fontsize=13)
-        axs[i,j].set_ylabel('ºC', fontsize=15)
-        axs[i,j].plot(x, ys[i * nColsPlot + j])
-        axs[i,j].set_ylabel('ºC', fontsize=15)
-        axs[i,j].set_xticklabels(x,rotation=80, ha = 'center')
-        
-        for k in range(nHours):
-            axs[i,j].text(x=x[k], y=ys[i * nColsPlot + j][k] + 0.05, s=ys[i * nColsPlot + j][k], fontsize=10,
-                    horizontalalignment='center')
-fig.tight_layout()
-fig.savefig('./images/saih-temperature-36h-'+ now.strftime("%d-%m-%y_%Hh") +'.png')
+            axs[i,j].plot(x, ys[i * nColsPlot + j], c='red')
+            axs[i,j].grid(axis='y')
+            axs[i,j].set_xlabel(GetSubPlotTittle(places[i * nColsPlot + j], nHours, ys[i * nColsPlot + j]), fontsize=13)
+            axs[i,j].set_ylabel('ºC', fontsize=15)
+            axs[i,j].set_xticklabels(x,rotation=80, ha = 'center')      
+            for k in range(nHours):
+                axs[i,j].text(  x=x[k], 
+                                y=ys[i * nColsPlot + j][k] + 0.05, 
+                                s=ys[i * nColsPlot + j][k], 
+                                fontsize=10,
+                                horizontalalignment='center')
+
+    # Fix and save.
+    fig.tight_layout()
+    fig.savefig('./images/saih-temperature-36h-'+ now.strftime("%d-%m-%y_%Hh") +'.png')
