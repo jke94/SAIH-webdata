@@ -34,7 +34,7 @@ if __name__ == "__main__":
         'Nogarejas',
         'Castrocalbon',
         'Corporales',
-        'Truchillas',
+        'Truchillas'
     ]
 
     nHours = 36
@@ -65,7 +65,7 @@ if __name__ == "__main__":
     # Plot
     fig, axs = plt.subplots(nrows=nRowsPlot, ncols=nColsPlot, figsize=(28, 12), sharey=True)
 
-    fig.suptitle(GetSubPlotTittle, fontsize=16)
+    fig.suptitle(CreatePlotTittle(), fontsize=16)
 
     for i in range (nRowsPlot):
         for j in range(nColsPlot):
