@@ -2,6 +2,14 @@ import numpy as np
 import matplotlib
 import matplotlib.pyplot as plt
 from datetime import datetime
+import pandas as pd
+
+def CreatePlotTittle():
+
+    tittle = 'Temperatura ambiente (ºC) - Sistema Automático de Información Hidrológica (SAIH) (Generation Time: ' \
+        + str(now.strftime("%d/%m/%y, %H:%M:%S")) + ') ' + 'Author: @JaviKarra94'
+
+    return tittle
 
 def heatmap(data, row_labels, col_labels, ax=None,
             cbar_kw={}, cbarlabel="", **kwargs):
@@ -118,27 +126,65 @@ def annotate_heatmap(im, data=None, valfmt="{x:.2f}",
 
     return texts
 
-vegetables = ["cucumber", "tomato", "lettuce", "asparagus",
-              "potato", "wheat", "barley"]
-farmers = ["Farmer Joe", "Upland Bros.", "Smith Gardening",
-           "Agrifun", "Organiculture", "BioGoods Ltd.", "Cornylee Corp."]
+if __name__ == "__main__":
 
-harvest = np.array([[0.8, 2.4, 2.5, 3.9, 0.0, 4.0, 0.0],
-                    [2.4, 0.0, 4.0, 1.0, 2.7, 0.0, 0.0],
-                    [1.1, 2.4, 0.8, 4.3, 1.9, 4.4, 0.0],
-                    [0.6, 0.0, 0.3, 0.0, 3.1, 0.0, 0.0],
-                    [0.7, 1.7, 0.6, 2.6, 2.2, 6.2, 0.0],
-                    [1.3, 1.2, 0.0, 0.0, 0.0, 3.2, 5.1],
-                    [0.1, 2.0, 0.0, 1.4, 0.0, 1.9, 6.3]])
+    nombres = [
+            'Temperature-Velilla de La Valduerna',
+            'Temperature-Morla de la Valderia',
+            'Temperature-Nogarejas',
+            'Temperature-Castrocalbon',
+            'Temperature-Corporales',
+            'Temperature-Truchillas'
+        ]
 
-now = datetime.now()
+    places = [
+        'Velilla de La Valduerna',
+        'Morla de La Valederia',
+        'Nogarejas',
+        'Castrocalbon',
+        'Corporales',
+        'Truchillas'
+    ]
 
-fig, ax = plt.subplots()
+    dates = ["cucumber", "tomato", "lettuce", "asparagus",
+                "potato", "wheat", "barley"]
 
-im, cbar = heatmap(harvest, vegetables, farmers, ax=ax,
-                   cmap="YlGn", cbarlabel="harvest [t/year]")
-texts = annotate_heatmap(im, valfmt="{x:.1f} t")
+    nHours = 24
+    x = []
+    ys = []
+    dataframes = []
+    now = datetime.now()
+    count = 0
+
+    for i in range(len(nombres)):
+        csv_fileName = './data/saih-data-scraper/temperature/' + nombres[i].replace(' ','-') + '.csv'
+
+        dataframes.append(pd.read_csv(csv_fileName))
+
+    xDateTime = dataframes[0]['Datetime'].tail(nHours).values
+
+    for i in range(len(xDateTime)):
+        date = datetime.strptime(xDateTime[i], '%d/%m/%Y %H:%M')
+        x.append(date.strftime("%d/%m %HH"))
+
+    for i in range(len(places)):
+        ys.append(dataframes[count]['Temperatura ambiente (ºC)'].tail(nHours).values)
+        count = count + 1
+
+    harvest = np.array([ys[0],ys[1],ys[2],ys[3],ys[4],ys[5]])
+
+    fig, ax = plt.subplots(figsize=(28, 12))
+
+    fig.suptitle(CreatePlotTittle(), fontsize=25)
+
+    im, cbar = heatmap(harvest, places, x, ax=ax,
+                    cmap="seismic")
+
+    cbar.ax.tick_params(labelsize=28)
+    cbar.ax.set_ylabel('ºC',fontsize=30)
+
+    texts = annotate_heatmap(im, fontsize=17)
 
 
-fig.tight_layout()
-fig.savefig('./images/saih-rain-36h-'+ now.strftime("%d-%m-%y_%Hh") +'.png')
+    fig.tight_layout()
+    fig.savefig('./images/saih-temperature-36h-heatmap-'+ now.strftime("%d-%m-%y_%Hh") +'.png')
