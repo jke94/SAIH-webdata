@@ -7,13 +7,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { GaugingStationComponent } from './gauging-station/gauging-station.component';
 import { PluviometricStationsComponent } from './components/pluviometric-stations/pluviometric-stations.component';
 import { ReservoirStationComponent } from './components/reservoir-station/reservoir-station.component';
+import { ToolbarComponent } from './components/toolbar/toolbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     GaugingStationComponent,
     PluviometricStationsComponent,
-    ReservoirStationComponent
+    ReservoirStationComponent,
+    ToolbarComponent
   ],
   imports: [
     BrowserModule,
