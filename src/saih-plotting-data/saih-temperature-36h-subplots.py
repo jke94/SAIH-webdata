@@ -66,7 +66,7 @@ if __name__ == "__main__":
         count = count + 1
 
     # Plot
-    fig, axs = plt.subplots(nrows=nRowsPlot, ncols=nColsPlot, figsize=(28, 12), sharey=True)
+    fig, axs = plt.subplots(nrows=nRowsPlot, ncols=nColsPlot, figsize=(28, 12), dpi=300, sharey=True)
 
     fig.suptitle(CreatePlotTittle(), fontsize=16)
 
@@ -74,7 +74,7 @@ if __name__ == "__main__":
         for j in range(nColsPlot):
 
             axs[i,j].plot(x, ys[i * nColsPlot + j], c='red')
-            axs[i,j].grid(axis='y')
+            axs[i,j].grid(True)
             axs[i,j].set_xlabel(GetSubPlotTittle(places[i * nColsPlot + j], nHours, ys[i * nColsPlot + j]), fontsize=13)
             axs[i,j].set_ylabel('ºC', fontsize=15)
             axs[i,j].set_xticklabels(x,rotation=80, ha = 'center')      
