@@ -1,3 +1,4 @@
+from statistics import mean
 import matplotlib.pyplot as plt
 import pandas as pd
 from datetime import datetime
@@ -6,7 +7,9 @@ def GetSubPlotTittle(place, hours, array):
     title = place + ' ' + \
             '(In the last ' + \
             str(hours) + 'h average: '+ \
-            "{:.2f}".format(sum(array)/hours) + ' ºC)'
+            "{:.2f}".format(mean(array)) + ' ºC  |  Min: ' + \
+            "{:.2f}".format(min(array)) + ' ºC - Max: ' +\
+            "{:.2f}".format(max(array)) +' ºC'
 
     return title
 
