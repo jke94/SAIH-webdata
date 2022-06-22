@@ -150,33 +150,33 @@ if __name__ == "__main__":
 
     rainGauges.append(RainGauge(
                     place='Velilla de La Valduerna',
-                    urlPluviometry='http://www.saihduero.es/risr/EA520/historico/xADTQNURfBjM1EUR',
-                    urlTemperature='http://www.saihduero.es/risr/EA520/historico/xATRUFURfBjM1EUR'))
+                    urlPluviometry='https://www.saihduero.es/risr/EA520/historico/xADTQNURfBjM1EUR',
+                    urlTemperature='https://www.saihduero.es/risr/EA520/historico/xATRUFURfBjM1EUR'))
 
     rainGauges.append(RainGauge(
                     place='Morla de la Valderia',
-                    urlPluviometry='http://www.saihduero.es/risr/EA089/historico/xADTQNURflDOwEUR',
-                    urlTemperature='http://www.saihduero.es/risr/EA089/historico/xATRUFURflDOwEUR'))
+                    urlPluviometry='https://www.saihduero.es/risr/EA089/historico/xADTQNURflDOwEUR',
+                    urlTemperature='https://www.saihduero.es/risr/EA089/historico/xATRUFURflDOwEUR'))
 
     rainGauges.append(RainGauge(
                     place='Nogarejas',
-                    urlPluviometry='http://www.saihduero.es/risr/PL283/historico/xADTQNURfNDOywEU',
-                    urlTemperature='http://www.saihduero.es/risr/PL283/historico/xATRUFURfNDOywEU'))
+                    urlPluviometry='https://www.saihduero.es/risr/PL283/historico/xADTQNURfNDOywEU',
+                    urlTemperature='https://www.saihduero.es/risr/PL283/historico/xATRUFURfNDOywEU'))
 
     rainGauges.append(RainGauge(
                     place='Castrocalbon',
-                    urlPluviometry='http://www.saihduero.es/risr/PL284/historico/xADTQNURfRDOywEU',
-                    urlTemperature='http://www.saihduero.es/risr/PL284/historico/xATRUFURfRDOywEU'))
+                    urlPluviometry='https://www.saihduero.es/risr/PL284/historico/xADTQNURfRDOywEU',
+                    urlTemperature='https://www.saihduero.es/risr/PL284/historico/xATRUFURfRDOywEU'))
 
     rainGauges.append(RainGauge(
                     place='Corporales',
-                    urlPluviometry='http://www.saihduero.es/risr/PL282/historico/xADTQNURfJDOywEU',
-                    urlTemperature='http://www.saihduero.es/risr/PL282/historico/xATRUFURfJDOywEU'))
+                    urlPluviometry='https://www.saihduero.es/risr/PL282/historico/xADTQNURfJDOywEU',
+                    urlTemperature='https://www.saihduero.es/risr/PL282/historico/xATRUFURfJDOywEU'))
 
     rainGauges.append(RainGauge(
                     place='Truchillas',
-                    urlPluviometry='http://www.saihduero.es/risr/PL281/historico/xADTQNURfFDOywEU',
-                    urlTemperature='http://www.saihduero.es/risr/PL281/historico/xATRUFURfFDOywEU'))
+                    urlPluviometry='https://www.saihduero.es/risr/PL281/historico/xADTQNURfFDOywEU',
+                    urlTemperature='https://www.saihduero.es/risr/PL281/historico/xATRUFURfFDOywEU'))
 
 
     GetStatistics(option=int(RainGaugeStatistics.PLUVIOMETRY),rainGaugesList=rainGauges)()
