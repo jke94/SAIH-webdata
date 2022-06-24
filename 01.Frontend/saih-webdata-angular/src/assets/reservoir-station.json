@@ -1,0 +1,274 @@
+[
+    {
+        "id": "EM551",
+        "url": "http://www.saihduero.es/risr/EM551",
+        "station": "Castro de las Cogotas",
+        "river": "Adaja",
+        "lat": 40.72402499,
+        "lng": -4.6952466
+    },
+    {
+        "id": "EM602",
+        "url": "http://www.saihduero.es/risr/EM602",
+        "station": "Irueña",
+        "river": "Águeda",
+        "lat": 40.44573908,
+        "lng": -6.57804199
+    },
+    {
+        "id": "EM601",
+        "url": "http://www.saihduero.es/risr/EM601",
+        "station": "Águeda",
+        "river": "Águeda",
+        "lat": 40.53096847,
+        "lng": -6.48075948
+    },
+    {
+        "id": "EM041",
+        "url": "http://www.saihduero.es/risr/EM041",
+        "station": "Arlanzón",
+        "river": "Arlanzón",
+        "lat": 42.26574125,
+        "lng": -3.3375198
+    },
+    {
+        "id": "EM042",
+        "url": "http://www.saihduero.es/risr/EM042",
+        "station": "Uzquiza",
+        "river": "Arlanzón",
+        "lat": 42.30741343,
+        "lng": -3.36669232
+    },
+    {
+        "id": "EM101",
+        "url": "http://www.saihduero.es/risr/EM101",
+        "station": "Camporredondo",
+        "river": "Carrión",
+        "lat": 42.90016446,
+        "lng": -4.73769029
+    },
+    {
+        "id": "EM102",
+        "url": "http://www.saihduero.es/risr/EM102",
+        "station": "Compuerto",
+        "river": "Carrión",
+        "lat": 42.86298704,
+        "lng": -4.82649638
+    },
+    {
+        "id": "EM001",
+        "url": "http://www.saihduero.es/risr/EM001",
+        "station": "Cuerda del Pozo",
+        "river": "Duero",
+        "lat": 41.87740057,
+        "lng": -2.70277105
+    },
+    {
+        "id": "EM002",
+        "url": "http://www.saihduero.es/risr/EM002",
+        "station": "Campillo de Buitrago",
+        "river": "Duero",
+        "lat": 41.83530529,
+        "lng": -2.5242737
+    },
+    {
+        "id": "EM003",
+        "url": "http://www.saihduero.es/risr/EM003",
+        "station": "Los Rábanos",
+        "river": "Duero",
+        "lat": 41.71016898,
+        "lng": -2.47220003
+    },
+    {
+        "id": "EM004",
+        "url": "http://www.saihduero.es/risr/EM004",
+        "station": "San José",
+        "river": "Duero",
+        "lat": 41.40349857,
+        "lng": -5.27436889
+    },
+    {
+        "id": "EM005",
+        "url": "http://www.saihduero.es/risr/EM005",
+        "station": "Villalcampo",
+        "river": "Duero",
+        "lat": 41.49183702,
+        "lng": -6.08545048
+    },
+    {
+        "id": "EM006",
+        "url": "http://www.saihduero.es/risr/EM006",
+        "station": "Castro",
+        "river": "Duero",
+        "lat": 41.57628326,
+        "lng": -6.18740734
+    },
+    {
+        "id": "EM007",
+        "url": "http://www.saihduero.es/risr/EM007",
+        "station": "Aldeadávila",
+        "river": "Duero",
+        "lat": 41.21265969,
+        "lng": -6.68604572
+    },
+    {
+        "id": "EM008",
+        "url": "http://www.saihduero.es/risr/EM008",
+        "station": "Saucelle",
+        "river": "Duero",
+        "lat": 41.04793438,
+        "lng": -6.80438058
+    },
+    {
+        "id": "EM521",
+        "url": "http://www.saihduero.es/risr/EM521",
+        "station": "Burgomillodo",
+        "river": "Duratón",
+        "lat": 41.33932646,
+        "lng": -3.88338401
+    },
+    {
+        "id": "EM522",
+        "url": "http://www.saihduero.es/risr/EM522",
+        "station": "Las Vencías",
+        "river": "Duratón",
+        "lat": 41.42961033,
+        "lng": -3.96394433
+    },
+    {
+        "id": "EM541",
+        "url": "http://www.saihduero.es/risr/EM541",
+        "station": "El Pontón Alto",
+        "river": "Eresma",
+        "lat": 40.91650145,
+        "lng": -4.03137185
+    },
+    {
+        "id": "EM171",
+        "url": "http://www.saihduero.es/risr/EM171",
+        "station": "Riaño",
+        "river": "Esla",
+        "lat": 42.93003706,
+        "lng": -5.08274058
+    },
+    {
+        "id": "EM172",
+        "url": "http://www.saihduero.es/risr/EM172",
+        "station": "Esla",
+        "river": "Esla",
+        "lat": 41.53028303,
+        "lng": -5.98383649
+    },
+    {
+        "id": "EM231",
+        "url": "http://www.saihduero.es/risr/EM231",
+        "station": "Barrios de Luna",
+        "river": "Luna",
+        "lat": 42.85186897,
+        "lng": -5.86267379
+    },
+    {
+        "id": "EM232",
+        "url": "http://www.saihduero.es/risr/EM232",
+        "station": "Selga de Ordás",
+        "river": "Luna",
+        "lat": 42.7560351,
+        "lng": -5.78711449
+    },
+    {
+        "id": "EM061",
+        "url": "http://www.saihduero.es/risr/EM061",
+        "station": "La Requejada",
+        "river": "Pisuerga",
+        "lat": 42.90749433,
+        "lng": -4.52747887
+    },
+    {
+        "id": "EM062",
+        "url": "http://www.saihduero.es/risr/EM062",
+        "station": "Aguilar de Campoo",
+        "river": "Pisuerga",
+        "lat": 42.79720007,
+        "lng": -4.28478322
+    },
+    {
+        "id": "EM181",
+        "url": "http://www.saihduero.es/risr/EM181",
+        "station": "Porma",
+        "river": "Porma",
+        "lat": 42.93103911,
+        "lng": -5.29041167
+    },
+    {
+        "id": "EM511",
+        "url": "http://www.saihduero.es/risr/EM511",
+        "station": "Linares del Arroyo",
+        "river": "Riaza",
+        "lat": 41.5300587,
+        "lng": -3.554994
+    },
+    {
+        "id": "EM091",
+        "url": "http://www.saihduero.es/risr/EM091",
+        "station": "Cervera - Ruesga",
+        "river": "Rivera",
+        "lat": 42.86854,
+        "lng": -4.53343468
+    },
+    {
+        "id": "EM292",
+        "url": "http://www.saihduero.es/risr/EM292",
+        "station": "Cernadilla",
+        "river": "Tera",
+        "lat": 42.02074151,
+        "lng": -6.46325774
+    },
+    {
+        "id": "EM293",
+        "url": "http://www.saihduero.es/risr/EM293",
+        "station": "Valparaíso",
+        "river": "Tera",
+        "lat": 41.99553671,
+        "lng": -6.27161554
+    },
+    {
+        "id": "EM294",
+        "url": "http://www.saihduero.es/risr/EM294",
+        "station": "Nuestra Señora del Agavanzal",
+        "river": "Tera",
+        "lat": 41.97994977,
+        "lng": -6.14409303
+    },
+    {
+        "id": "EM571",
+        "url": "http://www.saihduero.es/risr/EM571",
+        "station": "Santa Teresa",
+        "river": "Tormes",
+        "lat": 40.66716155,
+        "lng": -5.60494739
+    },
+    {
+        "id": "EM572",
+        "url": "http://www.saihduero.es/risr/EM572",
+        "station": "Villagonzalo",
+        "river": "Tormes",
+        "lat": 40.87508707,
+        "lng": -5.49445853
+    },
+    {
+        "id": "EM574",
+        "url": "http://www.saihduero.es/risr/EM574",
+        "station": "Almendra",
+        "river": "Tormes",
+        "lat": 41.27366363,
+        "lng": -6.32191644
+    },
+    {
+        "id": "EM261",
+        "url": "http://www.saihduero.es/risr/EM261",
+        "station": "Villameca",
+        "river": "Tuerto",
+        "lat": 42.65258265,
+        "lng": -6.06997727
+    }
+]

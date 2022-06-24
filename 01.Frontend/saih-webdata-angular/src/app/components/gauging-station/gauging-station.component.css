@@ -1,0 +1,15 @@
+table {
+
+  width: 100%;
+
+}
+
+.gauging-container {
+
+  height: 400px;
+
+  max-width: auto;
+
+  overflow: auto;
+
+}
