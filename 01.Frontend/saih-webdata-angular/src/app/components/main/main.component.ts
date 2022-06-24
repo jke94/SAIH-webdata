@@ -14,7 +14,7 @@ export interface Tile {
 export class MainComponent implements OnInit {
 
   tiles: Tile[] = [
-    {text: 'Header',  cols: 4, rows: 1, color: 'lightblue'},
+    {text: 'Saih web data URL',  cols: 4, rows: 1, color: 'lightblue'},
     {text: 'Tabs',     cols: 4, rows: 6, color: 'lightblue'},
     {text: 'Footer',  cols: 4, rows: 1, color: '#DDBDF1'}
     
