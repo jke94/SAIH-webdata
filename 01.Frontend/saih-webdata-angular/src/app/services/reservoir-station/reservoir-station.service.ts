@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { GaugingStation } from 'src/app/models/gauging-station';
+import { ReservoirStation } from 'src/app/models/reservoir-station';
 
 @Injectable({
   providedIn: 'root'
@@ -14,7 +14,7 @@ export class ReservoirStationService {
     });
   }
 
-  public getJSON(): Observable<GaugingStation[]> {
-    return this.http.get<GaugingStation[]>("./assets/reservoir-station.json");
+  public getJSON(): Observable<ReservoirStation[]> {
+    return this.http.get<ReservoirStation[]>("./assets/reservoir-station.json");
   }
 }
