@@ -15,3 +15,7 @@ table {
 .columnB {
   width: 20%;
 }
+
+.mat-form-field-custom{
+  width: 100%;
+}
