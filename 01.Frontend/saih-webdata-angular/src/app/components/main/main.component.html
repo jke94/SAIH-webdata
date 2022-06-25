@@ -4,13 +4,17 @@
     [colspan]="tile.cols" 
     [rowspan]="tile.rows" 
     [style.background]="tile.color">
-    <div *ngIf="tile.text == 'Tabs';else elseBlock">
+    <div *ngIf="tile.text == 'Tabs';else elseBlock" class="main-class">
       <mat-tab-group>
         <mat-tab label="Gauging Stations">
           <app-gauging-station></app-gauging-station>
         </mat-tab>
-        <mat-tab label="Pluviometric Stations">Pluviometric stations content</mat-tab>
-        <mat-tab label="Reservoir Station">Reservoir Station Content</mat-tab>
+        <mat-tab label="Pluviometric Stations">
+          <app-pluviometric-stations></app-pluviometric-stations>
+        </mat-tab>
+        <mat-tab label="Reservoir Station">
+          <app-reservoir-station></app-reservoir-station>
+        </mat-tab>
       </mat-tab-group>
     </div>
     <ng-template #elseBlock>{{tile.text}}</ng-template>
