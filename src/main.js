@@ -399,7 +399,7 @@ var estacionesDeAforo = new Array();
 var estacionesDeEmbalses = new Array();
 var estacionesDePluviometricas = new Array();
 
-// Estaciones pluviométricas
+// Estaciones de aforo
 datosEA.forEach( e => 
 {
     if(e.id.includes("EA"))
@@ -407,7 +407,7 @@ datosEA.forEach( e =>
         estacionesDeAforo.push(
         {
             id : e.id,
-            url : "http://www.saihduero.es/risr/" + (e.id),
+            url : "https://www.saihduero.es/risr/" + (e.id),
             station: e.station,
             river: e.river,
             lat: e.lat,
@@ -422,20 +422,17 @@ console.log("Estaciones de aforo: ", estacionesDeAforo.length)
 // Estaciones pluviométricas
 datosPL.forEach( e => 
 {
-    if(e.id.includes("PL"))
+    estacionesDePluviometricas.push(
     {
-        estacionesDePluviometricas.push(
-        {
-            id : e.id,
-            url : "http://www.saihduero.es/risr/" + (e.id),
-            station: e.station,
-            river: e.river,
-            lat: e.lat,
-            lng: e.lng
+        id : e.id,
+        url : "https://www.saihduero.es/risr/" + (e.id),
+        station: e.station,
+        river: e.river,
+        lat: e.lat,
+        lng: e.lng
 
-            // The rest of the data doesn´t needed at the moment.
-        });
-    }
+        // The rest of the data doesn´t needed at the moment.
+    });
 });
 console.log("Estaciones pluviometricas: ", estacionesDePluviometricas.length)
 
@@ -447,7 +444,7 @@ datosEM.forEach( e =>
         estacionesDeEmbalses.push(
         {
             id : e.id,
-            url : "http://www.saihduero.es/risr/" + (e.id),
+            url : "https://www.saihduero.es/risr/" + (e.id),
             station: e.station,
             river: e.river,
             lat: e.lat,
@@ -462,14 +459,14 @@ console.log("Estaciones embalses: ", estacionesDeEmbalses.length)
 
 const FileSystem = require("fs");
 
- FileSystem.writeFile('gauging-station.json', JSON.stringify(estacionesDeAforo), (error) => {
+ FileSystem.writeFile('../data/gauging-station.json', JSON.stringify(estacionesDeAforo), (error) => {
     if (error) throw error;
   });
 
- FileSystem.writeFile('pluviometric-stations.json', JSON.stringify(estacionesDePluviometricas), (error) => {
+ FileSystem.writeFile('../data/pluviometric-stations.json', JSON.stringify(estacionesDePluviometricas), (error) => {
     if (error) throw error;
   });
 
-  FileSystem.writeFile('reservoir-station.json', JSON.stringify(estacionesDeEmbalses), (error) => {
+  FileSystem.writeFile('../data/reservoir-station.json', JSON.stringify(estacionesDeEmbalses), (error) => {
      if (error) throw error;
    });
