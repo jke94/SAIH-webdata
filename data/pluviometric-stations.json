@@ -1,15 +1,47 @@
 [
     {
         "id": "PL551",
-        "url": "http://www.saihduero.es/risr/PL551",
+        "url": "https://www.saihduero.es/risr/PL551",
         "station": "Pradosegar, PL-62",
         "river": "Adaja",
         "lat": 40.5412706,
         "lng": -5.07625169
     },
     {
+        "id": "EA046",
+        "url": "https://www.saihduero.es/risr/EA046",
+        "station": "Ávila, 2046",
+        "river": "Adaja",
+        "lat": 40.64983832,
+        "lng": -4.70718143
+    },
+    {
+        "id": "EM551",
+        "url": "https://www.saihduero.es/risr/EM551",
+        "station": "Castro de las Cogotas",
+        "river": "Adaja",
+        "lat": 40.72402499,
+        "lng": -4.6952466
+    },
+    {
+        "id": "EA056",
+        "url": "https://www.saihduero.es/risr/EA056",
+        "station": "Valdestillas, 2056",
+        "river": "Adaja",
+        "lat": 41.49040339,
+        "lng": -4.7699781
+    },
+    {
+        "id": "EA501",
+        "url": "https://www.saihduero.es/risr/EA501",
+        "station": "Zamarra, 2501",
+        "river": "Agadón",
+        "lat": 40.49141576,
+        "lng": -6.44944475
+    },
+    {
         "id": "PL602",
-        "url": "http://www.saihduero.es/risr/PL602",
+        "url": "https://www.saihduero.es/risr/PL602",
         "station": "Navafrías, PL-74",
         "river": "Águeda",
         "lat": 40.26693181,
@@ -17,23 +49,103 @@
     },
     {
         "id": "PL601",
-        "url": "http://www.saihduero.es/risr/PL601",
+        "url": "https://www.saihduero.es/risr/PL601",
         "station": "El Jaque, PL-73",
         "river": "Águeda",
         "lat": 40.29529752,
         "lng": -6.58585733
     },
     {
+        "id": "EA502",
+        "url": "https://www.saihduero.es/risr/EA502",
+        "station": "Robleda, 2502",
+        "river": "Águeda",
+        "lat": 40.36317391,
+        "lng": -6.67625344
+    },
+    {
+        "id": "EA503",
+        "url": "https://www.saihduero.es/risr/EA503",
+        "station": "Salida del Embalse de Irueña, 2503",
+        "river": "Águeda",
+        "lat": 40.44483496,
+        "lng": -6.57437497
+    },
+    {
+        "id": "EA092",
+        "url": "https://www.saihduero.es/risr/EA092",
+        "station": "Salida del Embalse del Águeda, 2092",
+        "river": "Águeda",
+        "lat": 40.53533033,
+        "lng": -6.48484552
+    },
+    {
+        "id": "EA505",
+        "url": "https://www.saihduero.es/risr/EA505",
+        "station": "Saelices El Chico, 2505",
+        "river": "Águeda",
+        "lat": 40.64984593,
+        "lng": -6.66127695
+    },
+    {
         "id": "PL031",
-        "url": "http://www.saihduero.es/risr/PL031",
+        "url": "https://www.saihduero.es/risr/PL031",
         "station": "Quintanar de la Sierra, PL-45a",
         "river": "Arlanza",
         "lat": 42.03715928,
         "lng": -3.00451858
     },
     {
+        "id": "EA028",
+        "url": "https://www.saihduero.es/risr/EA028",
+        "station": "Salas de los Infantes, 2028",
+        "river": "Arlanza",
+        "lat": 42.0343105,
+        "lng": -3.27773498
+    },
+    {
+        "id": "EA030",
+        "url": "https://www.saihduero.es/risr/EA030",
+        "station": "Covarrubias, 2030",
+        "river": "Arlanza",
+        "lat": 42.05392817,
+        "lng": -3.50869043
+    },
+    {
+        "id": "EA031",
+        "url": "https://www.saihduero.es/risr/EA031",
+        "station": "Peral de Arlanza, 2031",
+        "river": "Arlanza",
+        "lat": 42.07886288,
+        "lng": -4.07941903
+    },
+    {
+        "id": "EA036",
+        "url": "https://www.saihduero.es/risr/EA036",
+        "station": "Quintana del Puente, 2036",
+        "river": "Arlanza",
+        "lat": 42.05604262,
+        "lng": -4.24050116
+    },
+    {
+        "id": "EA165",
+        "url": "https://www.saihduero.es/risr/EA165",
+        "station": "Palacios de la Sierra, 2165",
+        "river": "Arlanza",
+        "lat": 41.96725383,
+        "lng": -3.12482489
+    },
+    {
+        "id": "EA166",
+        "url": "https://www.saihduero.es/risr/EA166",
+        "station": "Salida del Embalse de Castrovido, 2166",
+        "river": "Arlanza",
+        "lat": 42.04554422,
+        "lng": -3.24918266
+    },
+    {
         "id": "PL041",
-        "url": "http://www.saihduero.es/risr/PL041",
+        "url": "https://www.saihduero.es/risr/PL041",
         "station": "Alarcia, PL-44",
         "river": "Arlanzón",
         "lat": 42.27613654,
@@ -41,15 +153,63 @@
     },
     {
         "id": "PL042",
-        "url": "http://www.saihduero.es/risr/PL042",
+        "url": "https://www.saihduero.es/risr/PL042",
         "station": "Pineda de la Sierra, PL-45",
         "river": "Arlanzón",
         "lat": 42.19729006,
         "lng": -3.30326539
     },
     {
+        "id": "EA508",
+        "url": "https://www.saihduero.es/risr/EA508",
+        "station": "Pineda de la Sierra, 2508",
+        "river": "Arlanzón",
+        "lat": 42.22545807,
+        "lng": -3.30468463
+    },
+    {
+        "id": "EM041",
+        "url": "https://www.saihduero.es/risr/EM041",
+        "station": "Arlanzón",
+        "river": "Arlanzón",
+        "lat": 42.26574125,
+        "lng": -3.3375198
+    },
+    {
+        "id": "EA109",
+        "url": "https://www.saihduero.es/risr/EA109",
+        "station": "Salida del Embalse de Arlanzón, 2109",
+        "river": "Arlanzón",
+        "lat": 42.26967097,
+        "lng": -3.33955368
+    },
+    {
+        "id": "EM042",
+        "url": "https://www.saihduero.es/risr/EM042",
+        "station": "Uzquiza",
+        "river": "Arlanzón",
+        "lat": 42.30741343,
+        "lng": -3.36669232
+    },
+    {
+        "id": "EA032",
+        "url": "https://www.saihduero.es/risr/EA032",
+        "station": "Salida del Embalse de Úzquiza, 2032",
+        "river": "Arlanzón",
+        "lat": 42.30521355,
+        "lng": -3.3730129
+    },
+    {
+        "id": "EA116",
+        "url": "https://www.saihduero.es/risr/EA116",
+        "station": "Celada del Camino, 2116",
+        "river": "Arlanzón",
+        "lat": 42.25524238,
+        "lng": -3.92800992
+    },
+    {
         "id": "PL213",
-        "url": "http://www.saihduero.es/risr/PL213",
+        "url": "https://www.saihduero.es/risr/PL213",
         "station": "Tonín de Arbas, PL-28",
         "river": "Bernesga",
         "lat": 43.00120382,
@@ -57,7 +217,7 @@
     },
     {
         "id": "PL212",
-        "url": "http://www.saihduero.es/risr/PL212",
+        "url": "https://www.saihduero.es/risr/PL212",
         "station": "Poladura de la Tercia, PL-27",
         "river": "Bernesga",
         "lat": 42.94493807,
@@ -65,7 +225,7 @@
     },
     {
         "id": "PL214",
-        "url": "http://www.saihduero.es/risr/PL214",
+        "url": "https://www.saihduero.es/risr/PL214",
         "station": "Velilla de la Tercia, PL-29",
         "river": "Bernesga",
         "lat": 42.94646229,
@@ -73,15 +233,31 @@
     },
     {
         "id": "PL211",
-        "url": "http://www.saihduero.es/risr/PL211",
+        "url": "https://www.saihduero.es/risr/PL211",
         "station": "Geras, PL-26",
         "river": "Bernesga",
         "lat": 42.89594908,
         "lng": -5.77037548
     },
     {
+        "id": "EA510",
+        "url": "https://www.saihduero.es/risr/EA510",
+        "station": "Cascantes, 2510",
+        "river": "Bernesga",
+        "lat": 42.75963941,
+        "lng": -5.63613841
+    },
+    {
+        "id": "EA119",
+        "url": "https://www.saihduero.es/risr/EA119",
+        "station": "Alija de la Ribera, 2119",
+        "river": "Bernesga",
+        "lat": 42.52281457,
+        "lng": -5.53672395
+    },
+    {
         "id": "PL065",
-        "url": "http://www.saihduero.es/risr/PL065",
+        "url": "https://www.saihduero.es/risr/PL065",
         "station": "Brañosera, PL-4301",
         "river": "Camesa",
         "lat": 42.9414247,
@@ -89,31 +265,135 @@
     },
     {
         "id": "PL101",
-        "url": "http://www.saihduero.es/risr/PL101",
+        "url": "https://www.saihduero.es/risr/PL101",
         "station": "Cardaño de Arriba, PL-3901",
         "river": "Cardaño",
         "lat": 42.97300157,
         "lng": -4.75678555
     },
     {
+        "id": "EA511",
+        "url": "https://www.saihduero.es/risr/EA511",
+        "station": "Cardaño de Arriba, 2511",
+        "river": "Cardaño",
+        "lat": 42.93443404,
+        "lng": -4.76028427
+    },
+    {
         "id": "PL102",
-        "url": "http://www.saihduero.es/risr/PL102",
+        "url": "https://www.saihduero.es/risr/PL102",
         "station": "Vidrieros, PL-40",
         "river": "Carrión",
         "lat": 42.93739583,
         "lng": -4.63656007
     },
     {
+        "id": "EA512",
+        "url": "https://www.saihduero.es/risr/EA512",
+        "station": "Triollo, 2512",
+        "river": "Carrión",
+        "lat": 42.92926519,
+        "lng": -4.6750927
+    },
+    {
+        "id": "EA037",
+        "url": "https://www.saihduero.es/risr/EA037",
+        "station": "Salida del Embalse de Compuerto, 2037",
+        "river": "Carrión",
+        "lat": 42.85284602,
+        "lng": -4.83334502
+    },
+    {
+        "id": "EA134",
+        "url": "https://www.saihduero.es/risr/EA134",
+        "station": "Guardo, 2134",
+        "river": "Carrión",
+        "lat": 42.80747349,
+        "lng": -4.84990891
+    },
+    {
+        "id": "EA023",
+        "url": "https://www.saihduero.es/risr/EA023",
+        "station": "Celadilla del Río, 2023",
+        "river": "Carrión",
+        "lat": 42.60824545,
+        "lng": -4.79830863
+    },
+    {
+        "id": "EA040",
+        "url": "https://www.saihduero.es/risr/EA040",
+        "station": "Villoldo, 2040",
+        "river": "Carrión",
+        "lat": 42.2494274,
+        "lng": -4.60015592
+    },
+    {
+        "id": "EA042",
+        "url": "https://www.saihduero.es/risr/EA042",
+        "station": "Palencia, 2042",
+        "river": "Carrión",
+        "lat": 42.03625314,
+        "lng": -4.55828678
+    },
+    {
         "id": "PL222",
-        "url": "http://www.saihduero.es/risr/PL222",
+        "url": "https://www.saihduero.es/risr/PL222",
         "station": "Casares de Arbás, PL-25",
         "river": "Casares",
         "lat": 42.9443922,
         "lng": -5.75138122
     },
     {
+        "id": "EA514",
+        "url": "https://www.saihduero.es/risr/EA514",
+        "station": "Salida del Embalse de Casares, 2514",
+        "river": "Casares",
+        "lat": 42.92372956,
+        "lng": -5.76136556
+    },
+    {
+        "id": "EA104",
+        "url": "https://www.saihduero.es/risr/EA104",
+        "station": "Villaverde de Arcayos, 2104",
+        "river": "Cea",
+        "lat": 42.61335066,
+        "lng": -5.03866094
+    },
+    {
+        "id": "EA073",
+        "url": "https://www.saihduero.es/risr/EA073",
+        "station": "Sahagún, 2073",
+        "river": "Cea",
+        "lat": 42.37044177,
+        "lng": -5.03802237
+    },
+    {
+        "id": "EA516",
+        "url": "https://www.saihduero.es/risr/EA516",
+        "station": "Valderas, 2516",
+        "river": "Cea",
+        "lat": 42.08158196,
+        "lng": -5.46223185
+    },
+    {
+        "id": "EA517",
+        "url": "https://www.saihduero.es/risr/EA517",
+        "station": "Águilafuente, 2517",
+        "river": "Cega",
+        "lat": 41.27375867,
+        "lng": -4.09336636
+    },
+    {
+        "id": "EA518",
+        "url": "https://www.saihduero.es/risr/EA518",
+        "station": "Megeces, 2518",
+        "river": "Cega",
+        "lat": 41.41606852,
+        "lng": -4.57155938
+    },
+    {
         "id": "PL192",
-        "url": "http://www.saihduero.es/risr/PL192",
+        "url": "https://www.saihduero.es/risr/PL192",
         "station": "Redipuertas, PL-33b",
         "river": "Curueño",
         "lat": 43.03053409,
@@ -121,15 +401,23 @@
     },
     {
         "id": "PL191",
-        "url": "http://www.saihduero.es/risr/PL191",
+        "url": "https://www.saihduero.es/risr/PL191",
         "station": "Villaverde de la Cuerna, PL-33a",
         "river": "Curueño",
         "lat": 43.00301925,
         "lng": -5.39217827
     },
     {
+        "id": "EA068",
+        "url": "https://www.saihduero.es/risr/EA068",
+        "station": "Caldas de Nocedo, 2068",
+        "river": "Curueño",
+        "lat": 42.89792846,
+        "lng": -5.4002592
+    },
+    {
         "id": "PL272",
-        "url": "http://www.saihduero.es/risr/PL272",
+        "url": "https://www.saihduero.es/risr/PL272",
         "station": "Pobladura de la Sierra, PL-11",
         "river": "Duerna",
         "lat": 42.41884389,
@@ -137,7 +425,7 @@
     },
     {
         "id": "PL273",
-        "url": "http://www.saihduero.es/risr/PL273",
+        "url": "https://www.saihduero.es/risr/PL273",
         "station": "Filiel, PL-12",
         "river": "Duerna",
         "lat": 42.37609413,
@@ -145,15 +433,31 @@
     },
     {
         "id": "PL271",
-        "url": "http://www.saihduero.es/risr/PL271",
+        "url": "https://www.saihduero.es/risr/PL271",
         "station": "Luyego de Somoza, PL-10",
         "river": "Duerna",
         "lat": 42.37839237,
         "lng": -6.23697893
     },
     {
+        "id": "EA519",
+        "url": "https://www.saihduero.es/risr/EA519",
+        "station": "Boisán, 2519",
+        "river": "Duerna",
+        "lat": 42.37414159,
+        "lng": -6.28851944
+    },
+    {
+        "id": "EA520",
+        "url": "https://www.saihduero.es/risr/EA520",
+        "station": "Velilla de la Valduerna, 2520",
+        "river": "Duerna",
+        "lat": 42.32455474,
+        "lng": -6.14674693
+    },
+    {
         "id": "PL002",
-        "url": "http://www.saihduero.es/risr/PL002",
+        "url": "https://www.saihduero.es/risr/PL002",
         "station": "Covaleda, PL-47",
         "river": "Duero",
         "lat": 41.95236236,
@@ -161,23 +465,183 @@
     },
     {
         "id": "PL001",
-        "url": "http://www.saihduero.es/risr/PL001",
+        "url": "https://www.saihduero.es/risr/PL001",
         "station": "Pinar Grande, PL-46",
         "river": "Duero",
         "lat": 41.88439717,
         "lng": -2.88056748
     },
     {
+        "id": "EA101",
+        "url": "https://www.saihduero.es/risr/EA101",
+        "station": "Molinos de Duero, 2101",
+        "river": "Duero",
+        "lat": 41.88877218,
+        "lng": -2.78592534
+    },
+    {
+        "id": "EM001",
+        "url": "https://www.saihduero.es/risr/EM001",
+        "station": "Cuerda del Pozo",
+        "river": "Duero",
+        "lat": 41.87740057,
+        "lng": -2.70277105
+    },
+    {
+        "id": "EA001",
+        "url": "https://www.saihduero.es/risr/EA001",
+        "station": "Salida del Embalse de La Cuerda del Pozo, 2001",
+        "river": "Duero",
+        "lat": 41.87635755,
+        "lng": -2.69317092
+    },
+    {
+        "id": "EA002",
+        "url": "https://www.saihduero.es/risr/EA002",
+        "station": "Garray - Soria, 2002",
+        "river": "Duero",
+        "lat": 41.79709622,
+        "lng": -2.45496129
+    },
+    {
+        "id": "EA162",
+        "url": "https://www.saihduero.es/risr/EA162",
+        "station": "Tardajos de Duero, 2162",
+        "river": "Duero",
+        "lat": 41.66326675,
+        "lng": -2.39328306
+    },
+    {
+        "id": "EA004",
+        "url": "https://www.saihduero.es/risr/EA004",
+        "station": "Gormaz, 2004",
+        "river": "Duero",
+        "lat": 41.48651334,
+        "lng": -3.01051748
+    },
+    {
+        "id": "EA522",
+        "url": "https://www.saihduero.es/risr/EA522",
+        "station": "Vadocondes, 2522",
+        "river": "Duero",
+        "lat": 41.64429706,
+        "lng": -3.57350492
+    },
+    {
+        "id": "EA054",
+        "url": "https://www.saihduero.es/risr/EA054",
+        "station": "San Miguel del Pino, 2054",
+        "river": "Duero",
+        "lat": 41.50411258,
+        "lng": -4.93056644
+    },
+    {
+        "id": "EM004",
+        "url": "https://www.saihduero.es/risr/EM004",
+        "station": "San José",
+        "river": "Duero",
+        "lat": 41.40349857,
+        "lng": -5.27436889
+    },
+    {
+        "id": "EA062",
+        "url": "https://www.saihduero.es/risr/EA062",
+        "station": "Toro - Duero, 2062",
+        "river": "Duero",
+        "lat": 41.50827908,
+        "lng": -5.39943248
+    },
+    {
+        "id": "EA121",
+        "url": "https://www.saihduero.es/risr/EA121",
+        "station": "Zamora, 2121",
+        "river": "Duero",
+        "lat": 41.51188965,
+        "lng": -5.72243571
+    },
+    {
+        "id": "EM005",
+        "url": "https://www.saihduero.es/risr/EM005",
+        "station": "Villalcampo",
+        "river": "Duero",
+        "lat": 41.49183702,
+        "lng": -6.08545048
+    },
+    {
+        "id": "EM007",
+        "url": "https://www.saihduero.es/risr/EM007",
+        "station": "Aldeadávila",
+        "river": "Duero",
+        "lat": 41.21265969,
+        "lng": -6.68604572
+    },
+    {
+        "id": "EM008",
+        "url": "https://www.saihduero.es/risr/EM008",
+        "station": "Saucelle",
+        "river": "Duero",
+        "lat": 41.04793438,
+        "lng": -6.80438058
+    },
+    {
+        "id": "EA524",
+        "url": "https://www.saihduero.es/risr/EA524",
+        "station": "Saucelle - Duero, 2524",
+        "river": "Duero",
+        "lat": 41.03101263,
+        "lng": -6.82070821
+    },
+    {
+        "id": "EA161",
+        "url": "https://www.saihduero.es/risr/EA161",
+        "station": "Salida del Embalse de Las Vencías, 2161",
+        "river": "Duratón",
+        "lat": 41.43402069,
+        "lng": -3.96755242
+    },
+    {
         "id": "PL542",
-        "url": "http://www.saihduero.es/risr/PL542",
+        "url": "https://www.saihduero.es/risr/PL542",
         "station": "Rivera de los Molinos, PL-59",
         "river": "Eresma",
         "lat": 40.82802777,
         "lng": -4.13629466
     },
     {
+        "id": "EA525",
+        "url": "https://www.saihduero.es/risr/EA525",
+        "station": "Valsaín, 2525",
+        "river": "Eresma",
+        "lat": 40.89018944,
+        "lng": -4.02216714
+    },
+    {
+        "id": "EM541",
+        "url": "https://www.saihduero.es/risr/EM541",
+        "station": "El Pontón Alto",
+        "river": "Eresma",
+        "lat": 40.91650145,
+        "lng": -4.03137185
+    },
+    {
+        "id": "EA526",
+        "url": "https://www.saihduero.es/risr/EA526",
+        "station": "Salida del Embalse de El Pontón Alto, 2526",
+        "river": "Eresma",
+        "lat": 40.92130856,
+        "lng": -4.04969998
+    },
+    {
+        "id": "EA527",
+        "url": "https://www.saihduero.es/risr/EA527",
+        "station": "Coca - Eresma, 2527",
+        "river": "Eresma",
+        "lat": 41.26346321,
+        "lng": -4.56061235
+    },
+    {
         "id": "PL281",
-        "url": "http://www.saihduero.es/risr/PL281",
+        "url": "https://www.saihduero.es/risr/PL281",
         "station": "Truchillas, PL-6",
         "river": "Eria",
         "lat": 42.23574558,
@@ -185,7 +649,7 @@
     },
     {
         "id": "PL282",
-        "url": "http://www.saihduero.es/risr/PL282",
+        "url": "https://www.saihduero.es/risr/PL282",
         "station": "Corporales, PL-7",
         "river": "Eria",
         "lat": 42.30677608,
@@ -193,23 +657,47 @@
     },
     {
         "id": "PL283",
-        "url": "http://www.saihduero.es/risr/PL283",
+        "url": "https://www.saihduero.es/risr/PL283",
         "station": "Nogarejas, PL-8",
         "river": "Eria",
         "lat": 42.21681448,
         "lng": -6.16752945
     },
     {
+        "id": "EA089",
+        "url": "https://www.saihduero.es/risr/EA089",
+        "station": "Morla de La Valdería, 2089",
+        "river": "Eria",
+        "lat": 42.22255931,
+        "lng": -6.25240502
+    },
+    {
         "id": "PL284",
-        "url": "http://www.saihduero.es/risr/PL284",
+        "url": "https://www.saihduero.es/risr/PL284",
         "station": "Castrocalbón, PL-9.1",
         "river": "Eria",
         "lat": 42.2221173,
         "lng": -5.96774776
     },
     {
+        "id": "EA082",
+        "url": "https://www.saihduero.es/risr/EA082",
+        "station": "Morales del Rey, 2082",
+        "river": "Eria",
+        "lat": 42.05782029,
+        "lng": -5.76102958
+    },
+    {
+        "id": "EA528",
+        "url": "https://www.saihduero.es/risr/EA528",
+        "station": "Torre de Esgueva, 2528",
+        "river": "Esgueva",
+        "lat": 41.76253339,
+        "lng": -4.19747834
+    },
+    {
         "id": "PL171",
-        "url": "http://www.saihduero.es/risr/PL171",
+        "url": "https://www.saihduero.es/risr/PL171",
         "station": "Ermita de Riosol, PL-34",
         "river": "Esla",
         "lat": 43.07454756,
@@ -217,7 +705,7 @@
     },
     {
         "id": "PL172",
-        "url": "http://www.saihduero.es/risr/PL172",
+        "url": "https://www.saihduero.es/risr/PL172",
         "station": "Maraña, PL-35",
         "river": "Esla",
         "lat": 43.05044409,
@@ -225,23 +713,71 @@
     },
     {
         "id": "PL173",
-        "url": "http://www.saihduero.es/risr/PL173",
+        "url": "https://www.saihduero.es/risr/PL173",
         "station": "Polvoredo, PL-36",
         "river": "Esla",
         "lat": 43.05547343,
         "lng": -5.09942121
     },
     {
+        "id": "EA529",
+        "url": "https://www.saihduero.es/risr/EA529",
+        "station": "Liegos, 2529",
+        "river": "Esla",
+        "lat": 43.02843466,
+        "lng": -5.07661494
+    },
+    {
+        "id": "EA102",
+        "url": "https://www.saihduero.es/risr/EA102",
+        "station": "Las Salas, 2102",
+        "river": "Esla",
+        "lat": 42.93344058,
+        "lng": -5.10049006
+    },
+    {
+        "id": "EA111",
+        "url": "https://www.saihduero.es/risr/EA111",
+        "station": "Villómar, 2111",
+        "river": "Esla",
+        "lat": 42.51648895,
+        "lng": -5.37436437
+    },
+    {
+        "id": "EA530",
+        "url": "https://www.saihduero.es/risr/EA530",
+        "station": "Bretó, 2530",
+        "river": "Esla",
+        "lat": 41.87224825,
+        "lng": -5.76562617
+    },
+    {
+        "id": "EM172",
+        "url": "https://www.saihduero.es/risr/EM172",
+        "station": "Esla",
+        "river": "Esla",
+        "lat": 41.53028303,
+        "lng": -5.98383649
+    },
+    {
         "id": "PL581",
-        "url": "http://www.saihduero.es/risr/PL581",
+        "url": "https://www.saihduero.es/risr/PL581",
         "station": "Peña de Francia, PL-71",
         "river": "Huebra",
         "lat": 40.53373691,
         "lng": -6.15610296
     },
     {
+        "id": "EA531",
+        "url": "https://www.saihduero.es/risr/EA531",
+        "station": "Saucelle - Huebra, 2531",
+        "river": "Huebra",
+        "lat": 41.03291299,
+        "lng": -6.80357391
+    },
+    {
         "id": "PL232",
-        "url": "http://www.saihduero.es/risr/PL232",
+        "url": "https://www.saihduero.es/risr/PL232",
         "station": "Peñalba de Cilleros, PL-20a",
         "river": "Luna",
         "lat": 42.93063726,
@@ -249,7 +785,7 @@
     },
     {
         "id": "PL234",
-        "url": "http://www.saihduero.es/risr/PL234",
+        "url": "https://www.saihduero.es/risr/PL234",
         "station": "Torrestio, PL-22",
         "river": "Luna",
         "lat": 43.04084164,
@@ -257,7 +793,7 @@
     },
     {
         "id": "PL233",
-        "url": "http://www.saihduero.es/risr/PL233",
+        "url": "https://www.saihduero.es/risr/PL233",
         "station": "Torre de Babia, PL-21",
         "river": "Luna",
         "lat": 42.9779535,
@@ -265,15 +801,31 @@
     },
     {
         "id": "PL231",
-        "url": "http://www.saihduero.es/risr/PL231",
+        "url": "https://www.saihduero.es/risr/PL231",
         "station": "Huergas, PL-20",
         "river": "Luna",
         "lat": 42.9553046,
         "lng": -6.09790451
     },
     {
+        "id": "EA532",
+        "url": "https://www.saihduero.es/risr/EA532",
+        "station": "Sena de Luna, 2532",
+        "river": "Luna",
+        "lat": 42.92893949,
+        "lng": -5.96684361
+    },
+    {
+        "id": "EA122",
+        "url": "https://www.saihduero.es/risr/EA122",
+        "station": "Salida del Embalse de Barrios de Luna, 2122",
+        "river": "Luna",
+        "lat": 42.83627947,
+        "lng": -5.87068934
+    },
+    {
         "id": "PL295",
-        "url": "http://www.saihduero.es/risr/PL295",
+        "url": "https://www.saihduero.es/risr/PL295",
         "station": "Villarejo de la Sierra, PL-5.1",
         "river": "Negro",
         "lat": 42.12268598,
@@ -281,7 +833,7 @@
     },
     {
         "id": "PL043",
-        "url": "http://www.saihduero.es/risr/PL043",
+        "url": "https://www.saihduero.es/risr/PL043",
         "station": "Rioparaíso, PL-4303",
         "river": "Odra",
         "lat": 42.6105033,
@@ -289,7 +841,7 @@
     },
     {
         "id": "PL251",
-        "url": "http://www.saihduero.es/risr/PL251",
+        "url": "https://www.saihduero.es/risr/PL251",
         "station": "Fasgar, PL-17",
         "river": "Omaña",
         "lat": 42.81146301,
@@ -297,7 +849,7 @@
     },
     {
         "id": "PL255",
-        "url": "http://www.saihduero.es/risr/PL255",
+        "url": "https://www.saihduero.es/risr/PL255",
         "station": "Rodicol, PL-19a",
         "river": "Omaña",
         "lat": 42.84631759,
@@ -305,7 +857,7 @@
     },
     {
         "id": "PL253",
-        "url": "http://www.saihduero.es/risr/PL253",
+        "url": "https://www.saihduero.es/risr/PL253",
         "station": "Murias de Paredes, PL-18",
         "river": "Omaña",
         "lat": 42.84968302,
@@ -313,23 +865,55 @@
     },
     {
         "id": "PL254",
-        "url": "http://www.saihduero.es/risr/PL254",
+        "url": "https://www.saihduero.es/risr/PL254",
         "station": "Arienza, PL-19",
         "river": "Omaña",
         "lat": 42.8168818,
         "lng": -6.01191737
     },
     {
+        "id": "EA076",
+        "url": "https://www.saihduero.es/risr/EA076",
+        "station": "Las Omañas, 2076",
+        "river": "Omaña",
+        "lat": 42.70340291,
+        "lng": -5.90231661
+    },
+    {
+        "id": "EA061",
+        "url": "https://www.saihduero.es/risr/EA061",
+        "station": "Santa Marina del Rey, 2061",
+        "river": "Órbigo",
+        "lat": 42.50563583,
+        "lng": -5.87825923
+    },
+    {
+        "id": "EA060",
+        "url": "https://www.saihduero.es/risr/EA060",
+        "station": "Cebrones del Río, 2060",
+        "river": "Órbigo",
+        "lat": 42.24846628,
+        "lng": -5.82924654
+    },
+    {
         "id": "PL174",
-        "url": "http://www.saihduero.es/risr/PL174",
+        "url": "https://www.saihduero.es/risr/PL174",
         "station": "Casasuertes, PL-37",
         "river": "Orza",
         "lat": 43.06027913,
         "lng": -4.9478884
     },
     {
+        "id": "EA535",
+        "url": "https://www.saihduero.es/risr/EA535",
+        "station": "Vegacerneja, 2535",
+        "river": "Orza",
+        "lat": 43.04216809,
+        "lng": -5.00845243
+    },
+    {
         "id": "PL532",
-        "url": "http://www.saihduero.es/risr/PL532",
+        "url": "https://www.saihduero.es/risr/PL532",
         "station": "Sotosalbos, PL-56",
         "river": "Pirón",
         "lat": 41.0310461,
@@ -337,7 +921,7 @@
     },
     {
         "id": "PL061",
-        "url": "http://www.saihduero.es/risr/PL061",
+        "url": "https://www.saihduero.es/risr/PL061",
         "station": "Abadía de Lebanza, PL-41",
         "river": "Pisuerga",
         "lat": 42.9647152,
@@ -345,7 +929,7 @@
     },
     {
         "id": "PL063",
-        "url": "http://www.saihduero.es/risr/PL063",
+        "url": "https://www.saihduero.es/risr/PL063",
         "station": "Casavegas, PL-42a",
         "river": "Pisuerga",
         "lat": 43.02341342,
@@ -353,23 +937,135 @@
     },
     {
         "id": "PL064",
-        "url": "http://www.saihduero.es/risr/PL064",
+        "url": "https://www.saihduero.es/risr/PL064",
         "station": "Santa María de Redondo, PL-43",
         "river": "Pisuerga",
         "lat": 42.99143794,
         "lng": -4.42922726
     },
     {
+        "id": "EA536",
+        "url": "https://www.saihduero.es/risr/EA536",
+        "station": "San Salvador de Cantamuda, 2536",
+        "river": "Pisuerga",
+        "lat": 42.96054683,
+        "lng": -4.48819626
+    },
+    {
+        "id": "EM061",
+        "url": "https://www.saihduero.es/risr/EM061",
+        "station": "La Requejada",
+        "river": "Pisuerga",
+        "lat": 42.90749433,
+        "lng": -4.52747887
+    },
+    {
+        "id": "EA106",
+        "url": "https://www.saihduero.es/risr/EA106",
+        "station": "Arbejal, 2106",
+        "river": "Pisuerga",
+        "lat": 42.89925969,
+        "lng": -4.52508309
+    },
+    {
+        "id": "EA019",
+        "url": "https://www.saihduero.es/risr/EA019",
+        "station": "Salinas de Pisuerga, 2019",
+        "river": "Pisuerga",
+        "lat": 42.84905438,
+        "lng": -4.38943206
+    },
+    {
+        "id": "EM062",
+        "url": "https://www.saihduero.es/risr/EM062",
+        "station": "Aguilar de Campoo",
+        "river": "Pisuerga",
+        "lat": 42.79720007,
+        "lng": -4.28478322
+    },
+    {
+        "id": "EA020",
+        "url": "https://www.saihduero.es/risr/EA020",
+        "station": "Salida del Embalse de Aguilar de Campoo, 2020",
+        "river": "Pisuerga",
+        "lat": 42.79431078,
+        "lng": -4.28063938
+    },
+    {
+        "id": "EA133",
+        "url": "https://www.saihduero.es/risr/EA133",
+        "station": "Herrera de Pisuerga, 2133",
+        "river": "Pisuerga",
+        "lat": 42.56112517,
+        "lng": -4.30532761
+    },
+    {
+        "id": "EA029",
+        "url": "https://www.saihduero.es/risr/EA029",
+        "station": "Cordovilla, 2029",
+        "river": "Pisuerga",
+        "lat": 42.13053446,
+        "lng": -4.24956419
+    },
+    {
+        "id": "EA043",
+        "url": "https://www.saihduero.es/risr/EA043",
+        "station": "Cabezón de Pisuerga, 2043",
+        "river": "Pisuerga",
+        "lat": 41.74108242,
+        "lng": -4.63928755
+    },
+    {
+        "id": "EA097",
+        "url": "https://www.saihduero.es/risr/EA097",
+        "station": "Valladolid - Pisuerga, 2097",
+        "river": "Pisuerga",
+        "lat": 41.66116948,
+        "lng": -4.73235865
+    },
+    {
         "id": "PL181",
-        "url": "http://www.saihduero.es/risr/PL181",
+        "url": "https://www.saihduero.es/risr/PL181",
         "station": "Cofiñal, PL-33c",
         "river": "Porma",
         "lat": 43.06068898,
         "lng": -5.2808543
     },
     {
+        "id": "EA078",
+        "url": "https://www.saihduero.es/risr/EA078",
+        "station": "Camposolillo, 2078",
+        "river": "Porma",
+        "lat": 42.98872477,
+        "lng": -5.25997564
+    },
+    {
+        "id": "EA011",
+        "url": "https://www.saihduero.es/risr/EA011",
+        "station": "Salida del Embalse del Porma, 2011",
+        "river": "Porma",
+        "lat": 42.92522746,
+        "lng": -5.29643308
+    },
+    {
+        "id": "EA112",
+        "url": "https://www.saihduero.es/risr/EA112",
+        "station": "Secos, 2112",
+        "river": "Porma",
+        "lat": 42.60110796,
+        "lng": -5.4050998
+    },
+    {
+        "id": "EA000",
+        "url": "https://www.saihduero.es/risr/EA000",
+        "station": "Vinuesa, 2000",
+        "river": "Revinuesa",
+        "lat": 41.91125997,
+        "lng": -2.75761044
+    },
+    {
         "id": "PL512",
-        "url": "http://www.saihduero.es/risr/PL512",
+        "url": "https://www.saihduero.es/risr/PL512",
         "station": "Riaza, PL-52",
         "river": "Riaza",
         "lat": 41.28282128,
@@ -377,15 +1073,63 @@
     },
     {
         "id": "PL511",
-        "url": "http://www.saihduero.es/risr/PL511",
+        "url": "https://www.saihduero.es/risr/PL511",
         "station": "El Muyo, PL-51.1",
         "river": "Riaza",
         "lat": 41.2889587,
         "lng": -3.31870267
     },
     {
+        "id": "EA538",
+        "url": "https://www.saihduero.es/risr/EA538",
+        "station": "Languilla, 2538",
+        "river": "Riaza",
+        "lat": 41.44812893,
+        "lng": -3.4256823
+    },
+    {
+        "id": "EA552",
+        "url": "https://www.saihduero.es/risr/EA552",
+        "station": "Salida del Embalse de Linares, 2552",
+        "river": "Riaza",
+        "lat": 41.5299975,
+        "lng": -3.55460989
+    },
+    {
+        "id": "EA539",
+        "url": "https://www.saihduero.es/risr/EA539",
+        "station": "Ventanilla, 2539",
+        "river": "Rivera",
+        "lat": 42.89078747,
+        "lng": -4.58202951
+    },
+    {
+        "id": "EA107",
+        "url": "https://www.saihduero.es/risr/EA107",
+        "station": "Salida del Embalse de Cervera, 2107",
+        "river": "Rivera",
+        "lat": 42.86595894,
+        "lng": -4.52576864
+    },
+    {
+        "id": "EA124",
+        "url": "https://www.saihduero.es/risr/EA124",
+        "station": "Medina de Rioseco, 2124",
+        "river": "Sequillo",
+        "lat": 41.88747146,
+        "lng": -5.03868358
+    },
+    {
+        "id": "EA160",
+        "url": "https://www.saihduero.es/risr/EA160",
+        "station": "Castrelo do Val, 2160",
+        "river": "Támega",
+        "lat": 41.99483716,
+        "lng": -7.44224568
+    },
+    {
         "id": "PL293",
-        "url": "http://www.saihduero.es/risr/PL293",
+        "url": "https://www.saihduero.es/risr/PL293",
         "station": "San Martín de Castañeda, PL-3",
         "river": "Tera",
         "lat": 42.13461158,
@@ -393,15 +1137,55 @@
     },
     {
         "id": "PL292",
-        "url": "http://www.saihduero.es/risr/PL292",
+        "url": "https://www.saihduero.es/risr/PL292",
         "station": "Ribadelago, PL-2",
         "river": "Tera",
         "lat": 42.1210206,
         "lng": -6.75403433
     },
     {
+        "id": "EA080",
+        "url": "https://www.saihduero.es/risr/EA080",
+        "station": "Puebla de Sanabria, 2080",
+        "river": "Tera",
+        "lat": 42.05644805,
+        "lng": -6.63165494
+    },
+    {
+        "id": "EM292",
+        "url": "https://www.saihduero.es/risr/EM292",
+        "station": "Cernadilla",
+        "river": "Tera",
+        "lat": 42.02074151,
+        "lng": -6.46325774
+    },
+    {
+        "id": "EM293",
+        "url": "https://www.saihduero.es/risr/EM293",
+        "station": "Valparaíso",
+        "river": "Tera",
+        "lat": 41.99553671,
+        "lng": -6.27161554
+    },
+    {
+        "id": "EA541",
+        "url": "https://www.saihduero.es/risr/EA541",
+        "station": "Camarzana de Tera, 2541",
+        "river": "Tera",
+        "lat": 41.98711197,
+        "lng": -6.04146096
+    },
+    {
+        "id": "EA099",
+        "url": "https://www.saihduero.es/risr/EA099",
+        "station": "Mózar de Valverde, 2099",
+        "river": "Tera",
+        "lat": 41.94205615,
+        "lng": -5.78292475
+    },
+    {
         "id": "PL004",
-        "url": "http://www.saihduero.es/risr/PL004",
+        "url": "https://www.saihduero.es/risr/PL004",
         "station": "Ventosa de la Sierra, PL-50",
         "river": "Tera (Soria)",
         "lat": 41.94690772,
@@ -409,7 +1193,7 @@
     },
     {
         "id": "PL003",
-        "url": "http://www.saihduero.es/risr/PL003",
+        "url": "https://www.saihduero.es/risr/PL003",
         "station": "Valdeavellano de Tera, PL-49",
         "river": "Tera (Soria)",
         "lat": 41.94922795,
@@ -417,7 +1201,7 @@
     },
     {
         "id": "PL201",
-        "url": "http://www.saihduero.es/risr/PL201",
+        "url": "https://www.saihduero.es/risr/PL201",
         "station": "Valporquero, PL-30",
         "river": "Torío",
         "lat": 42.90662355,
@@ -425,7 +1209,7 @@
     },
     {
         "id": "PL202",
-        "url": "http://www.saihduero.es/risr/PL202",
+        "url": "https://www.saihduero.es/risr/PL202",
         "station": "Piedrafita, PL-31",
         "river": "Torío",
         "lat": 43.01334939,
@@ -433,15 +1217,31 @@
     },
     {
         "id": "PL204",
-        "url": "http://www.saihduero.es/risr/PL204",
+        "url": "https://www.saihduero.es/risr/PL204",
         "station": "Correcillas, PL-33",
         "river": "Torío",
         "lat": 42.88405507,
         "lng": -5.46116565
     },
     {
+        "id": "EA542",
+        "url": "https://www.saihduero.es/risr/EA542",
+        "station": "Getino, 2542",
+        "river": "Torío",
+        "lat": 42.94209951,
+        "lng": -5.55276509
+    },
+    {
+        "id": "EA150",
+        "url": "https://www.saihduero.es/risr/EA150",
+        "station": "Pardavé, 2150",
+        "river": "Torío",
+        "lat": 42.8235456,
+        "lng": -5.50793863
+    },
+    {
         "id": "PL571",
-        "url": "http://www.saihduero.es/risr/PL571",
+        "url": "https://www.saihduero.es/risr/PL571",
         "station": "La Herguijuela, PL-64",
         "river": "Tormes",
         "lat": 40.40837723,
@@ -449,7 +1249,7 @@
     },
     {
         "id": "PL574",
-        "url": "http://www.saihduero.es/risr/PL574",
+        "url": "https://www.saihduero.es/risr/PL574",
         "station": "Hoyos del Espino, PL-67",
         "river": "Tormes",
         "lat": 40.29398872,
@@ -457,7 +1257,7 @@
     },
     {
         "id": "PL573",
-        "url": "http://www.saihduero.es/risr/PL573",
+        "url": "https://www.saihduero.es/risr/PL573",
         "station": "Barajas, PL-66",
         "river": "Tormes",
         "lat": 40.36842178,
@@ -465,7 +1265,7 @@
     },
     {
         "id": "PL577",
-        "url": "http://www.saihduero.es/risr/PL577",
+        "url": "https://www.saihduero.es/risr/PL577",
         "station": "Solana de Ávila, PL-70",
         "river": "Tormes",
         "lat": 40.30694439,
@@ -473,7 +1273,7 @@
     },
     {
         "id": "PL576",
-        "url": "http://www.saihduero.es/risr/PL576",
+        "url": "https://www.saihduero.es/risr/PL576",
         "station": "Navalonguilla, PL-69",
         "river": "Tormes",
         "lat": 40.27495946,
@@ -481,15 +1281,71 @@
     },
     {
         "id": "PL575",
-        "url": "http://www.saihduero.es/risr/PL575",
+        "url": "https://www.saihduero.es/risr/PL575",
         "station": "Bohoyo, PL-68.1",
         "river": "Tormes",
         "lat": 40.31148966,
         "lng": -5.44274708
     },
     {
+        "id": "EA085",
+        "url": "https://www.saihduero.es/risr/EA085",
+        "station": "El Barco de Ávila, 2085",
+        "river": "Tormes",
+        "lat": 40.35615275,
+        "lng": -5.52977297
+    },
+    {
+        "id": "EA081",
+        "url": "https://www.saihduero.es/risr/EA081",
+        "station": "Puente Congosto, 2081",
+        "river": "Tormes",
+        "lat": 40.50329822,
+        "lng": -5.529986
+    },
+    {
+        "id": "EM571",
+        "url": "https://www.saihduero.es/risr/EM571",
+        "station": "Santa Teresa",
+        "river": "Tormes",
+        "lat": 40.66716155,
+        "lng": -5.60494739
+    },
+    {
+        "id": "EA140",
+        "url": "https://www.saihduero.es/risr/EA140",
+        "station": "Salida del Embalse de Santa Teresa, 2140",
+        "river": "Tormes",
+        "lat": 40.71220082,
+        "lng": -5.59042691
+    },
+    {
+        "id": "EA545",
+        "url": "https://www.saihduero.es/risr/EA545",
+        "station": "Encinas de Abajo, 2545",
+        "river": "Tormes",
+        "lat": 40.93292329,
+        "lng": -5.48146734
+    },
+    {
+        "id": "EA546",
+        "url": "https://www.saihduero.es/risr/EA546",
+        "station": "Ledesma, 2546",
+        "river": "Tormes",
+        "lat": 41.09384258,
+        "lng": -5.99673493
+    },
+    {
+        "id": "EM574",
+        "url": "https://www.saihduero.es/risr/EM574",
+        "station": "Almendra",
+        "river": "Tormes",
+        "lat": 41.27366363,
+        "lng": -6.32191644
+    },
+    {
         "id": "PL261",
-        "url": "http://www.saihduero.es/risr/PL261",
+        "url": "https://www.saihduero.es/risr/PL261",
         "station": "Barrios del Nistoso, PL-16a",
         "river": "Tuerto",
         "lat": 42.69476837,
@@ -497,7 +1353,7 @@
     },
     {
         "id": "PL262",
-        "url": "http://www.saihduero.es/risr/PL262",
+        "url": "https://www.saihduero.es/risr/PL262",
         "station": "Viforcos, PL-15",
         "river": "Tuerto",
         "lat": 42.519211,
@@ -505,7 +1361,7 @@
     },
     {
         "id": "PL265",
-        "url": "http://www.saihduero.es/risr/PL265",
+        "url": "https://www.saihduero.es/risr/PL265",
         "station": "Rabanal del Camino, PL-1401",
         "river": "Tuerto",
         "lat": 42.4859775,
@@ -513,15 +1369,39 @@
     },
     {
         "id": "PL263",
-        "url": "http://www.saihduero.es/risr/PL263",
+        "url": "https://www.saihduero.es/risr/PL263",
         "station": "Brañuelas, PL-16",
         "river": "Tuerto",
         "lat": 42.63451334,
         "lng": -6.19940512
     },
     {
+        "id": "EA547",
+        "url": "https://www.saihduero.es/risr/EA547",
+        "station": "Quintana del Castillo, 2547",
+        "river": "Tuerto",
+        "lat": 42.67305108,
+        "lng": -6.09900288
+    },
+    {
+        "id": "EA077",
+        "url": "https://www.saihduero.es/risr/EA077",
+        "station": "Salida del Embalse de Villameca, 2077",
+        "river": "Tuerto",
+        "lat": 42.64655479,
+        "lng": -6.07280314
+    },
+    {
+        "id": "EA156",
+        "url": "https://www.saihduero.es/risr/EA156",
+        "station": "San Félix de La Vega, 2156",
+        "river": "Tuerto",
+        "lat": 42.39999386,
+        "lng": -5.95240711
+    },
+    {
         "id": "PL044",
-        "url": "http://www.saihduero.es/risr/PL044",
+        "url": "https://www.saihduero.es/risr/PL044",
         "station": "Quintanilla de Sobresierra, PL-4305",
         "river": "Ubierna",
         "lat": 42.58095645,
@@ -529,7 +1409,7 @@
     },
     {
         "id": "PL051",
-        "url": "http://www.saihduero.es/risr/PL051",
+        "url": "https://www.saihduero.es/risr/PL051",
         "station": "Tobes, PL-4306",
         "river": "Ubierna",
         "lat": 42.48362925,
@@ -537,15 +1417,23 @@
     },
     {
         "id": "PL045",
-        "url": "http://www.saihduero.es/risr/PL045",
+        "url": "https://www.saihduero.es/risr/PL045",
         "station": "Urbel del Castillo, PL-4304",
         "river": "Ubierna",
         "lat": 42.62481429,
         "lng": -3.84198376
     },
     {
+        "id": "EA548",
+        "url": "https://www.saihduero.es/risr/EA548",
+        "station": "Benegiles, 2548",
+        "river": "Valderaduey",
+        "lat": 41.62324321,
+        "lng": -5.63192517
+    },
+    {
         "id": "PL052",
-        "url": "http://www.saihduero.es/risr/PL052",
+        "url": "https://www.saihduero.es/risr/PL052",
         "station": "Fresno de Rodilla, PL-4307",
         "river": "Vena",
         "lat": 42.41763437,
@@ -553,7 +1441,7 @@
     },
     {
         "id": "PL543",
-        "url": "http://www.saihduero.es/risr/PL543",
+        "url": "https://www.saihduero.es/risr/PL543",
         "station": "El Espinar, PL-60",
         "river": "Voltoya",
         "lat": 40.67359862,
@@ -561,10 +1449,18 @@
     },
     {
         "id": "PL175",
-        "url": "http://www.saihduero.es/risr/PL175",
+        "url": "https://www.saihduero.es/risr/PL175",
         "station": "Llánaves de la Reina, PL-38",
         "river": "Yuso",
         "lat": 43.0524693,
         "lng": -4.79732554
+    },
+    {
+        "id": "EA550",
+        "url": "https://www.saihduero.es/risr/EA550",
+        "station": "Boca de Huérgano, 2550",
+        "river": "Yuso",
+        "lat": 42.97100008,
+        "lng": -4.92325274
     }
 ]
