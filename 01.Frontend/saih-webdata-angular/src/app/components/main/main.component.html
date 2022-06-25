@@ -1,11 +1,16 @@
-<mat-grid-list cols="4" rowHeight="100px">
-  <mat-grid-tile 
-    *ngFor="let tile of tiles" 
-    [colspan]="tile.cols" 
-    [rowspan]="tile.rows" 
-    [style.background]="tile.color">
-    <div *ngIf="tile.text == 'Tabs';else elseBlock" class="main-class">
-      <mat-tab-group>
+<div class="container">
+  <div class="row" style="padding: 10px;">
+    <div class="col">
+      <img src=".\assets\images\GotaDeAgua.png" 
+      class="img-fluid" style="width: 100px;">
+    </div>
+    <div class="col-11 display-6" style="text-align: center;">
+      SAIH - Sistema Automático de Información del Duero
+    </div>
+  </div>
+  <div class="row" style="padding: 10px;">
+    <div class="col">
+      <mat-tab-group mat-stretch-tabs>
         <mat-tab label="Gauging Stations">
           <app-gauging-station></app-gauging-station>
         </mat-tab>
@@ -17,6 +22,10 @@
         </mat-tab>
       </mat-tab-group>
     </div>
-    <ng-template #elseBlock>{{tile.text}}</ng-template>
-  </mat-grid-tile>
-</mat-grid-list>
+  </div>
+  <div class="row" style="padding: 10px;">
+    <div class="col" style="text-align: center;">
+      By @jke94 (GitHub)
+    </div>
+  </div>
+</div>
