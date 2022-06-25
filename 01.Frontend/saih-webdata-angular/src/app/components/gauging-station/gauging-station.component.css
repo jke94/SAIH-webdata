@@ -1,15 +1,17 @@
 table {
-
   width: 100%;
-
 }
 
 .gauging-container {
-
   height: 400px;
-
   max-width: auto;
-
   overflow: auto;
+}
 
+.columnA {
+  width: 40%;
+}
+
+.columnB {
+  width: 20%;
 }

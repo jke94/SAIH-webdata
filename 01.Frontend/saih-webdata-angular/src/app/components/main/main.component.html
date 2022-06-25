@@ -4,7 +4,7 @@
     [colspan]="tile.cols" 
     [rowspan]="tile.rows" 
     [style.background]="tile.color">
-    <div *ngIf="tile.text == 'Tabs';else elseBlock">
+    <div *ngIf="tile.text == 'Tabs';else elseBlock" class="main-class">
       <mat-tab-group>
         <mat-tab label="Gauging Stations">
           <app-gauging-station></app-gauging-station>

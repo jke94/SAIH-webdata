@@ -5,24 +5,24 @@
 <div class="gauging-container mat-elevation-z8">
   <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
     <ng-container matColumnDef="station">
-      <th mat-header-cell *matHeaderCellDef> Station </th>
+      <th mat-header-cell *matHeaderCellDef class="columnA">Station</th>
       <td mat-cell *matCellDef="let element">
         <a mat-button href="{{element.url}}" target="_blank">{{element.station}}</a>
       </td>
     </ng-container>
 
     <ng-container matColumnDef="river">
-      <th mat-header-cell *matHeaderCellDef>River</th>
+      <th mat-header-cell *matHeaderCellDef class="columnB">River</th>
       <td mat-cell *matCellDef="let element"> {{element.river}} </td>
     </ng-container>
 
     <ng-container matColumnDef="lat">
-      <th mat-header-cell *matHeaderCellDef>Latitude</th>
+      <th mat-header-cell *matHeaderCellDef class="columnB">Latitude</th>
       <td mat-cell *matCellDef="let element"> {{element.lat}} </td>
     </ng-container>
 
     <ng-container matColumnDef="lng">
-      <th mat-header-cell *matHeaderCellDef>Longitude</th>
+      <th mat-header-cell *matHeaderCellDef class="columnB">Longitude</th>
       <td mat-cell *matCellDef="let element"> {{element.lng}} </td>
     </ng-container>
 
