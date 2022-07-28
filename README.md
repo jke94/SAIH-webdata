@@ -1,7 +1,10 @@
 # SAIH-webdata
-A couple of python scripts to extract the data for the SAIH web. The SAIH is the acronyms about "Sistema Automático de Información Hidrológica".
 
-- Official Website: [saihduero.es](https://www.saihduero.es/)
+The repository contains two principal assets:
+
+1. A couple of python scripts to extract the data for the SAIH web, the acronyms about [Sistema Automático de Información Hidrológica](https://www.saihduero.es/).
+
+2. Web Application (developed in Angular) to find easily a pluviometric station, gauging stations or reservoir station [jke94-saih-web-data.netlify.app](https://jke94-saih-web-data.netlify.app/)
 
 # Runtime environment path
 **IMPORTANT NOTE:** All the scripts must be executed from the base repository path.
