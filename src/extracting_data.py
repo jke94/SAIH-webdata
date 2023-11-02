@@ -33,16 +33,14 @@ class ControlPoint:
 
 if __name__ == "__main__":
 
-    url = 'https://www.saihduero.es/resultados-risr?q=&tipo=TT'
+    URL = 'https://www.saihduero.es/resultados-risr?q=&tipo=TT'
 
-    response = requests.get(url)
+    response = requests.get(URL)
 
     soup = BeautifulSoup(response.content.decode(), "html.parser")
 
-    backslash = "\n"
-    table = soup.find(
-        'table', 
-        id="table-estaciones-pagination")
+    BACKSLASH = "\n"
+    table = soup.find('table', id="table-estaciones-pagination")
 
     control_points = []
 
@@ -52,19 +50,21 @@ if __name__ == "__main__":
         if len(rows) == 6:
             control_points.append(ControlPoint(
                 tipo_ = rows[0].text,
-                description_ = str(rows[1].text).replace(backslash,""),
-                provincia_ = str(rows[2].text).replace(backslash,""),
-                rio_ = str(rows[3].text).replace(backslash,""),
-                localizacion_ = str(rows[4].text).replace(backslash,""),
-                subcuenca_ = str(rows[5].text).replace(backslash,""),
-                url_ = str(rows[1].a["href"]).replace(backslash,"")))
+                description_ = str(rows[1].text).replace(BACKSLASH,""),
+                provincia_ = str(rows[2].text).replace(BACKSLASH,""),
+                rio_ = str(rows[3].text).replace(BACKSLASH,""),
+                localizacion_ = str(rows[4].text).replace(BACKSLASH,""),
+                subcuenca_ = str(rows[5].text).replace(BACKSLASH,""),
+                url_ = str(rows[1].a["href"]).replace(BACKSLASH,"")))
     
-    count = 0    
+    count = 0 
+    
+    ## Example: Print all data.
     # for control_point in control_points:
     #     print(f'{count} - {control_point}')
     #     count += 1  
         
-        
+    ## Example: Print different types of control
     # print(len(control_points))
     # print(f'Num. aforos = {sum(contro_point.tipo == "Aforo" for contro_point in control_points)}')
     # print(f'Num. pluviometros = {sum(contro_point.tipo == "Pluv." for contro_point in control_points)}')
