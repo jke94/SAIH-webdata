@@ -77,6 +77,7 @@ if __name__ == "__main__":
             axs[i,j].grid(True)
             axs[i,j].set_xlabel(GetSubPlotTittle(places[i * nColsPlot + j], nHours, ys[i * nColsPlot + j]), fontsize=13)
             axs[i,j].set_ylabel('ºC', fontsize=15)
+            axs[i,j].set_xticks(x)
             axs[i,j].set_xticklabels(x,rotation=80, ha = 'center')      
             for k in range(nHours):
                 axs[i,j].text(  x=x[k], 
