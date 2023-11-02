@@ -54,6 +54,7 @@ axs[0,0].bar(x, yA)
 axs[0,0].grid(axis='y')
 axs[0,0].set_xlabel(GetSubPlotTittle('Velilla de La Valduerna', nHours, yA), fontsize=13)
 axs[0,0].set_ylabel('(l/m2)', fontsize=15)
+axs[0,0].set_xticks(x)
 axs[0,0].set_xticklabels(x,rotation=80, ha = 'center')
 for i in range(nHours):
     axs[0,0].text(x=x[i], y=yA[i] + 0.05, s=yA[i], fontsize=10,
@@ -63,6 +64,7 @@ axs[0,1].bar(x, yB)
 axs[0,1].grid(axis='y')
 axs[0,1].set_xlabel(GetSubPlotTittle('Morla de La Valederia', nHours, yB), fontsize=13)
 axs[0,1].set_ylabel('(l/m2)', fontsize=15)
+axs[0,1].set_xticks(x)
 axs[0,1].set_xticklabels(x, rotation=80, ha = 'center')
 for i in range(nHours):
     axs[0,1].text(x=x[i], y=yB[i] + 0.05, s=yB[i], fontsize=10, 
@@ -72,6 +74,7 @@ axs[0,2].bar(x, yC)
 axs[0,2].grid(axis='y')
 axs[0,2].set_xlabel(GetSubPlotTittle('Nogarejas', nHours, yC), fontsize=13)
 axs[0,2].set_ylabel('(l/m2)', fontsize=15)
+axs[0,2].set_xticks(x)
 axs[0,2].set_xticklabels(x, rotation=80, ha = 'center')
 for i in range(nHours):
     axs[0,2].text(x=x[i],y=yC[i] + 0.05, s=yC[i], fontsize=10, 
@@ -81,6 +84,7 @@ axs[1,0].bar(x, yD)
 axs[1,0].grid(axis='y')
 axs[1,0].set_xlabel(GetSubPlotTittle('Castrocalbon', nHours, yD), fontsize=13)
 axs[1,0].set_ylabel('(l/m2)', fontsize=15)
+axs[1,0].set_xticks(x)
 axs[1,0].set_xticklabels(x,rotation=80, ha = 'center')
 for i in range(nHours):
     axs[1,0].text(x=x[i],y=yD[i] + 0.05, s=yD[i], fontsize=10, 
@@ -90,6 +94,7 @@ axs[1,1].bar(x, yE)
 axs[1,1].grid(axis='y')
 axs[1,1].set_xlabel(GetSubPlotTittle('Corporales', nHours, yE), fontsize=13)
 axs[1,1].set_ylabel('(l/m2)', fontsize=15)
+axs[1,1].set_xticks(x)
 axs[1,1].set_xticklabels(x,rotation=80, ha = 'center')
 for i in range(nHours):
     axs[1,1].text(x=x[i],y=yE[i] + 0.05, s=yE[i], fontsize=10, 
@@ -99,6 +104,7 @@ axs[1,2].bar(x, yF)
 axs[1,2].grid(axis='y')
 axs[1,2].set_xlabel(GetSubPlotTittle('Truchillas', nHours, yF), fontsize=13)
 axs[1,2].set_ylabel('(l/m2)', fontsize=15)
+axs[1,2].set_xticks(x)
 axs[1,2].set_xticklabels(x,rotation=80, ha = 'center')
 for i in range(nHours):
     axs[1,2].text(x=x[i],y=yF[i] + 0.05, s=yF[i], fontsize=10, 
