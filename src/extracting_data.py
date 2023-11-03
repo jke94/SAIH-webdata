@@ -1,5 +1,5 @@
 import requests
-from lxml import html
+import pandas as pd
 from bs4 import BeautifulSoup
 
 class ControlPoint:
@@ -13,6 +13,17 @@ class ControlPoint:
         self.subcuenca = subcuenca_
         self.url = url_
     
+    def to_dict(self):
+        return {
+            'tipo': self.tipo,
+            'description': self.description,
+            'provincia': self.provincia,
+            'rio': self.rio,
+            'localizacion': self.localizacion,
+            'subcuenca': self.subcuenca,
+            'url': f'https://www.saihduero.es/{self.url}'
+        }
+        
     def __str__(self):
         
         tipo_str = f'Tipo: {self.tipo}'
@@ -74,7 +85,7 @@ if __name__ == "__main__":
     
     # Example
     for contro_point in control_points:
-        if contro_point.tipo == "Aforo" and contro_point.rio == "Truchillas":
+        if contro_point.tipo == "Aforo" and contro_point.rio == "Cea":
             data.append(contro_point)
             
     ## Example
@@ -85,3 +96,8 @@ if __name__ == "__main__":
     for item in data:
         print(item)
     print(len(data))
+    
+    dataframe = pd.DataFrame.from_records([item.to_dict() for item in control_points])
+    
+    print(dataframe)
+    dataframe.to_csv('saih_data.csv', index=False)
