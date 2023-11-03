@@ -1,3 +1,4 @@
+import threading
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup
@@ -42,6 +43,14 @@ class ControlPoint:
                 + subcuenca_str + ', ' \
                 + url_str
 
+def print_info(url:str):
+    
+    url_control_point = f'https://www.saihduero.es/{url}'
+    # response = requests.get(url_control_point)
+    
+    
+    print(f'\'https://www.saihduero.es/{url}\',')
+    
 if __name__ == "__main__":
 
     URL = 'https://www.saihduero.es/resultados-risr?q=&tipo=TT'
@@ -100,4 +109,20 @@ if __name__ == "__main__":
     dataframe = pd.DataFrame.from_records([item.to_dict() for item in control_points])
     
     print(dataframe)
-    dataframe.to_csv('saih_data.csv', index=False)
+    dataframe.to_csv('./data/saih_data_tmp.csv', index=False)
+        
+    ##################################
+    
+    threads = []
+    
+    for item in control_points:
+        threads.append(threading.Thread(target=print_info(url=item.url)))
+        
+    for item in threads:
+        item.start()
+    
+    for item in threads:
+        item.join()
+        
+    print("The end!")
+        
