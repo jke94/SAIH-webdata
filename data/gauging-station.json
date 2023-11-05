@@ -18,7 +18,7 @@
     {
         "id": "EA500",
         "url": "https://www.saihduero.es/risr/EA500",
-        "station": "Salida del Embalse de Castro de las Cogotas, 2500",
+        "station": "Salida del embalse de Castro de las Cogotas, 2500",
         "river": "Adaja",
         "lat": 40.72644108,
         "lng": -4.69450275
@@ -30,6 +30,14 @@
         "river": "Adaja",
         "lat": 41.0322813,
         "lng": -4.70451121
+    },
+    {
+        "id": "EA167",
+        "url": "https://www.saihduero.es/risr/EA167",
+        "station": "Olmedo, 2167",
+        "river": "Adaja",
+        "lat": 41.29132544,
+        "lng": -4.74246763
     },
     {
         "id": "EA056",
@@ -44,56 +52,56 @@
         "url": "https://www.saihduero.es/risr/EA501",
         "station": "Zamarra, 2501",
         "river": "Agadón",
-        "lat": 40.49141576,
-        "lng": -6.44944475
+        "lat": 40.49140818,
+        "lng": -6.44939717
     },
     {
         "id": "EA502",
         "url": "https://www.saihduero.es/risr/EA502",
-        "station": "Robleda, 2502",
+        "station": "Robleda-Águeda, 2502",
         "river": "Águeda",
-        "lat": 40.36317391,
-        "lng": -6.67625344
+        "lat": 40.36317577,
+        "lng": -6.6759121
     },
     {
         "id": "EA503",
         "url": "https://www.saihduero.es/risr/EA503",
-        "station": "Salida del Embalse de Irueña, 2503",
+        "station": "Salida del embalse de Irueña, 2503",
         "river": "Águeda",
-        "lat": 40.44483496,
-        "lng": -6.57437497
+        "lat": 40.44480045,
+        "lng": -6.57432599
     },
     {
         "id": "EA092",
         "url": "https://www.saihduero.es/risr/EA092",
-        "station": "Salida del Embalse del Águeda, 2092",
+        "station": "Salida del embalse del Águeda, 2092",
         "river": "Águeda",
-        "lat": 40.53533033,
-        "lng": -6.48484552
+        "lat": 40.5353313,
+        "lng": -6.48451505
     },
     {
         "id": "EA137",
         "url": "https://www.saihduero.es/risr/EA137",
         "station": "Ciudad Rodrigo, 2137",
         "river": "Águeda",
-        "lat": 40.60376232,
-        "lng": -6.56349498
+        "lat": 40.60376353,
+        "lng": -6.56316419
     },
     {
         "id": "EA505",
         "url": "https://www.saihduero.es/risr/EA505",
         "station": "Saelices El Chico, 2505",
         "river": "Águeda",
-        "lat": 40.64984593,
-        "lng": -6.66127695
+        "lat": 40.64983657,
+        "lng": -6.66128827
     },
     {
         "id": "EA155",
         "url": "https://www.saihduero.es/risr/EA155",
         "station": "Vegalatrave, 2155",
         "river": "Aliste",
-        "lat": 41.70030579,
-        "lng": -6.11957226
+        "lat": 41.70030738,
+        "lng": -6.11956975
     },
     {
         "id": "EA712",
@@ -122,7 +130,7 @@
     {
         "id": "EA166",
         "url": "https://www.saihduero.es/risr/EA166",
-        "station": "Salida del Embalse de Castrovido, 2166",
+        "station": "Salida del embalse de Castrovido, 2166",
         "river": "Arlanza",
         "lat": 42.04554422,
         "lng": -3.24918266
@@ -178,7 +186,7 @@
     {
         "id": "EA109",
         "url": "https://www.saihduero.es/risr/EA109",
-        "station": "Salida del Embalse de Arlanzón, 2109",
+        "station": "Salida del embalse de Arlanzón, 2109",
         "river": "Arlanzón",
         "lat": 42.26967097,
         "lng": -3.33955368
@@ -186,7 +194,7 @@
     {
         "id": "EA032",
         "url": "https://www.saihduero.es/risr/EA032",
-        "station": "Salida del Embalse de Úzquiza, 2032",
+        "station": "Salida del embalse de Úzquiza, 2032",
         "river": "Arlanzón",
         "lat": 42.30521355,
         "lng": -3.3730129
@@ -194,7 +202,7 @@
     {
         "id": "EA139",
         "url": "https://www.saihduero.es/risr/EA139",
-        "station": "Burgos - Arlanzón, 2139",
+        "station": "Burgos-Arlanzón, 2139",
         "river": "Arlanzón",
         "lat": 42.34816593,
         "lng": -3.73718339
@@ -256,6 +264,14 @@
         "lng": -4.84940945
     },
     {
+        "id": "EA182",
+        "url": "https://www.saihduero.es/risr/EA182",
+        "station": "La Granja, 2182",
+        "river": "Cambrones",
+        "lat": 40.91263024,
+        "lng": -4.01384436
+    },
+    {
         "id": "EA131",
         "url": "https://www.saihduero.es/risr/EA131",
         "station": "Villaescusa de Las Torres, 2131",
@@ -282,15 +298,15 @@
     {
         "id": "EA108",
         "url": "https://www.saihduero.es/risr/EA108",
-        "station": "Salida del Embalse de Camporredondo, 2108",
+        "station": "Salida del embalse de Camporredondo, 2108",
         "river": "Carrión",
-        "lat": 42.89522331,
-        "lng": -4.74344254
+        "lat": 42.89520652,
+        "lng": -4.74454434
     },
     {
         "id": "EA037",
         "url": "https://www.saihduero.es/risr/EA037",
-        "station": "Salida del Embalse de Compuerto, 2037",
+        "station": "Salida del embalse de Compuerto, 2037",
         "river": "Carrión",
         "lat": 42.85284602,
         "lng": -4.83334502
@@ -330,10 +346,18 @@
     {
         "id": "EA514",
         "url": "https://www.saihduero.es/risr/EA514",
-        "station": "Salida del Embalse de Casares, 2514",
+        "station": "Salida del embalse de Casares, 2514",
         "river": "Casares",
         "lat": 42.92372956,
         "lng": -5.76136556
+    },
+    {
+        "id": "EA181",
+        "url": "https://www.saihduero.es/risr/EA181",
+        "station": "Vañes, 2181",
+        "river": "Castillería",
+        "lat": 42.92264727,
+        "lng": -4.47340087
     },
     {
         "id": "EA717",
@@ -378,7 +402,7 @@
     {
         "id": "EA517",
         "url": "https://www.saihduero.es/risr/EA517",
-        "station": "Águilafuente, 2517",
+        "station": "Aguilafuente, 2517",
         "river": "Cega",
         "lat": 41.27375867,
         "lng": -4.09336636
@@ -458,7 +482,7 @@
     {
         "id": "EA001",
         "url": "https://www.saihduero.es/risr/EA001",
-        "station": "Salida del Embalse de La Cuerda del Pozo, 2001",
+        "station": "Salida del embalse de La Cuerda del Pozo, 2001",
         "river": "Duero",
         "lat": 41.87635755,
         "lng": -2.69317092
@@ -466,7 +490,7 @@
     {
         "id": "EA002",
         "url": "https://www.saihduero.es/risr/EA002",
-        "station": "Garray - Soria, 2002",
+        "station": "Garray-Soria, 2002",
         "river": "Duero",
         "lat": 41.79709622,
         "lng": -2.45496129
@@ -546,10 +570,10 @@
     {
         "id": "EA062",
         "url": "https://www.saihduero.es/risr/EA062",
-        "station": "Toro - Duero, 2062",
+        "station": "Toro-Duero, 2062",
         "river": "Duero",
-        "lat": 41.50827908,
-        "lng": -5.39943248
+        "lat": 41.50827033,
+        "lng": -5.39942017
     },
     {
         "id": "EA121",
@@ -562,7 +586,7 @@
     {
         "id": "EA524",
         "url": "https://www.saihduero.es/risr/EA524",
-        "station": "Saucelle - Duero, 2524",
+        "station": "Saucelle-Duero, 2524",
         "river": "Duero",
         "lat": 41.03101263,
         "lng": -6.82070821
@@ -578,7 +602,7 @@
     {
         "id": "EA161",
         "url": "https://www.saihduero.es/risr/EA161",
-        "station": "Salida del Embalse de Las Vencías, 2161",
+        "station": "Salida del embalse de Las Vencías, 2161",
         "river": "Duratón",
         "lat": 41.43402069,
         "lng": -3.96755242
@@ -594,7 +618,7 @@
     {
         "id": "EA526",
         "url": "https://www.saihduero.es/risr/EA526",
-        "station": "Salida del Embalse de El Pontón Alto, 2526",
+        "station": "Salida del embalse de El Pontón Alto, 2526",
         "river": "Eresma",
         "lat": 40.92130856,
         "lng": -4.04969998
@@ -618,7 +642,7 @@
     {
         "id": "EA527",
         "url": "https://www.saihduero.es/risr/EA527",
-        "station": "Coca - Eresma, 2527",
+        "station": "Coca-Eresma, 2527",
         "river": "Eresma",
         "lat": 41.26346321,
         "lng": -4.56061235
@@ -628,8 +652,8 @@
         "url": "https://www.saihduero.es/risr/EA089",
         "station": "Morla de La Valdería, 2089",
         "river": "Eria",
-        "lat": 42.22255931,
-        "lng": -6.25240502
+        "lat": 42.22452166,
+        "lng": -6.25116102
     },
     {
         "id": "EA082",
@@ -666,7 +690,7 @@
     {
         "id": "EA044",
         "url": "https://www.saihduero.es/risr/EA044",
-        "station": "Valladolid - Esgueva, 2044",
+        "station": "Valladolid-Esgueva, 2044",
         "river": "Esgueva",
         "lat": 41.65094192,
         "lng": -4.70438051
@@ -738,26 +762,26 @@
     {
         "id": "EA129",
         "url": "https://www.saihduero.es/risr/EA129",
-        "station": "Toro - Guareña, 2129",
+        "station": "Toro-Guareña, 2129",
         "river": "Guareña",
         "lat": 41.48871329,
         "lng": -5.38749858
-    },
-    {
-        "id": "EA531",
-        "url": "https://www.saihduero.es/risr/EA531",
-        "station": "Saucelle - Huebra, 2531",
-        "river": "Huebra",
-        "lat": 41.03291299,
-        "lng": -6.80357391
     },
     {
         "id": "EA094",
         "url": "https://www.saihduero.es/risr/EA094",
         "station": "Puente Resbala, 2094",
         "river": "Huebra",
-        "lat": 0,
-        "lng": -7.4887439
+        "lat": 40.99474547,
+        "lng": -6.62588026
+    },
+    {
+        "id": "EA531",
+        "url": "https://www.saihduero.es/risr/EA531",
+        "station": "Saucelle-Huebra, 2531",
+        "river": "Huebra",
+        "lat": 41.03290439,
+        "lng": -6.80356152
     },
     {
         "id": "EA718",
@@ -786,7 +810,7 @@
     {
         "id": "EA122",
         "url": "https://www.saihduero.es/risr/EA122",
-        "station": "Salida del Embalse de Barrios de Luna, 2122",
+        "station": "Salida del embalse de Barrios de Luna, 2122",
         "river": "Luna",
         "lat": 42.83627947,
         "lng": -5.87068934
@@ -800,12 +824,28 @@
         "lng": -5.83427957
     },
     {
+        "id": "EA168",
+        "url": "https://www.saihduero.es/risr/EA168",
+        "station": "Robleda-Mayas, 2168",
+        "river": "Mayas",
+        "lat": 40.37149213,
+        "lng": -6.57858178
+    },
+    {
         "id": "EA533",
         "url": "https://www.saihduero.es/risr/EA533",
         "station": "Monderio, 2533",
         "river": "Monderio",
-        "lat": 42.90661591,
-        "lng": -4.53121787
+        "lat": 42.90597218,
+        "lng": -4.53154493
+    },
+    {
+        "id": "EA051",
+        "url": "https://www.saihduero.es/risr/EA051",
+        "station": "El Espinar, 2051",
+        "river": "Moros",
+        "lat": 40.7503199,
+        "lng": -4.15556986
     },
     {
         "id": "EA055",
@@ -828,8 +868,8 @@
         "url": "https://www.saihduero.es/risr/EA113",
         "station": "Santa Eulalia de Rionegro, 2113",
         "river": "Negro",
-        "lat": 42.03621588,
-        "lng": -6.26708378
+        "lat": 42.03621686,
+        "lng": -6.26673353
     },
     {
         "id": "EA018",
@@ -946,7 +986,7 @@
     {
         "id": "EA020",
         "url": "https://www.saihduero.es/risr/EA020",
-        "station": "Salida del Embalse de Aguilar de Campoo, 2020",
+        "station": "Salida del embalse de Aguilar de Campoo, 2020",
         "river": "Pisuerga",
         "lat": 42.79431078,
         "lng": -4.28063938
@@ -986,7 +1026,7 @@
     {
         "id": "EA097",
         "url": "https://www.saihduero.es/risr/EA097",
-        "station": "Valladolid - Pisuerga, 2097",
+        "station": "Valladolid-Pisuerga, 2097",
         "river": "Pisuerga",
         "lat": 41.66116948,
         "lng": -4.73235865
@@ -1002,7 +1042,7 @@
     {
         "id": "EA011",
         "url": "https://www.saihduero.es/risr/EA011",
-        "station": "Salida del Embalse del Porma, 2011",
+        "station": "Salida del embalse del Porma, 2011",
         "river": "Porma",
         "lat": 42.92522746,
         "lng": -5.29643308
@@ -1018,7 +1058,7 @@
     {
         "id": "EA716",
         "url": "https://www.saihduero.es/risr/EA716",
-        "station": "Camarzana - Regato, 2716",
+        "station": "Camarzana-Regato, 2716",
         "river": "Regato",
         "lat": 41.99831961,
         "lng": -6.01809129
@@ -1036,8 +1076,8 @@
         "url": "https://www.saihduero.es/risr/EA537",
         "station": "Resoba, 2537",
         "river": "Resoba",
-        "lat": 42.90342151,
-        "lng": -4.52901969
+        "lat": 42.90263555,
+        "lng": -4.5285348
     },
     {
         "id": "EA000",
@@ -1066,7 +1106,7 @@
     {
         "id": "EA552",
         "url": "https://www.saihduero.es/risr/EA552",
-        "station": "Salida del Embalse de Linares, 2552",
+        "station": "Salida del embalse de Linares, 2552",
         "river": "Riaza",
         "lat": 41.5299975,
         "lng": -3.55460989
@@ -1090,7 +1130,7 @@
     {
         "id": "EA107",
         "url": "https://www.saihduero.es/risr/EA107",
-        "station": "Salida del Embalse de Cervera, 2107",
+        "station": "Salida del embalse de Cervera, 2107",
         "river": "Rivera",
         "lat": 42.86595894,
         "lng": -4.52576864
@@ -1102,6 +1142,14 @@
         "river": "Rivera",
         "lat": 42.85828367,
         "lng": -4.51718279
+    },
+    {
+        "id": "EA169",
+        "url": "https://www.saihduero.es/risr/EA169",
+        "station": "Menaza, 2169",
+        "river": "Rubagón",
+        "lat": 42.83050609,
+        "lng": -4.22351552
     },
     {
         "id": "EA124",
@@ -1116,8 +1164,8 @@
         "url": "https://www.saihduero.es/risr/EA160",
         "station": "Castrelo do Val, 2160",
         "river": "Támega",
-        "lat": 41.99483716,
-        "lng": -7.44224568
+        "lat": 41.99483005,
+        "lng": -7.44219691
     },
     {
         "id": "EA818",
@@ -1132,8 +1180,8 @@
         "url": "https://www.saihduero.es/risr/EA080",
         "station": "Puebla de Sanabria, 2080",
         "river": "Tera",
-        "lat": 42.05644805,
-        "lng": -6.63165494
+        "lat": 42.05834208,
+        "lng": -6.63042176
     },
     {
         "id": "EA541",
@@ -1188,8 +1236,8 @@
         "url": "https://www.saihduero.es/risr/EA085",
         "station": "El Barco de Ávila, 2085",
         "river": "Tormes",
-        "lat": 40.35615275,
-        "lng": -5.52977297
+        "lat": 40.36018475,
+        "lng": -5.52746271
     },
     {
         "id": "EA081",
@@ -1202,7 +1250,7 @@
     {
         "id": "EA140",
         "url": "https://www.saihduero.es/risr/EA140",
-        "station": "Salida del Embalse de Santa Teresa, 2140",
+        "station": "Salida del embalse de Santa Teresa, 2140",
         "river": "Tormes",
         "lat": 40.71220082,
         "lng": -5.59042691
@@ -1236,16 +1284,16 @@
         "url": "https://www.saihduero.es/risr/EA547",
         "station": "Quintana del Castillo, 2547",
         "river": "Tuerto",
-        "lat": 42.67305108,
-        "lng": -6.09900288
+        "lat": 42.67304274,
+        "lng": -6.09897806
     },
     {
         "id": "EA077",
         "url": "https://www.saihduero.es/risr/EA077",
-        "station": "Salida del Embalse de Villameca, 2077",
+        "station": "Villameca, 2077",
         "river": "Tuerto",
-        "lat": 42.64655479,
-        "lng": -6.07280314
+        "lat": 42.64654613,
+        "lng": -6.07279051
     },
     {
         "id": "EA156",
@@ -1330,7 +1378,7 @@
     {
         "id": "EA549",
         "url": "https://www.saihduero.es/risr/EA549",
-        "station": "Burgos - Vena, 2549",
+        "station": "Burgos-Vena, 2549",
         "river": "Vena",
         "lat": 42.34437506,
         "lng": -3.69674828
@@ -1346,7 +1394,7 @@
     {
         "id": "EA114",
         "url": "https://www.saihduero.es/risr/EA114",
-        "station": "Coca - Voltoya, 2114",
+        "station": "Coca-Voltoya, 2114",
         "river": "Voltoya",
         "lat": 41.21041894,
         "lng": -4.53173796
