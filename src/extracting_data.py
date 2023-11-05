@@ -51,6 +51,22 @@ def print_info(url:str):
     
     print(f'\'https://www.saihduero.es/{url}\',')
     
+def get_tipo(tipo:str):
+    
+    value = 'NONE'
+    
+    match tipo:
+        case 'Aforo':
+            value = 'Aforo'
+        case 'Emb.':
+            value = 'Embalse'
+        case 'Pluv.':
+            value = 'Pluviometro'
+        case _:
+            value = 'NOT_FOUND'
+    
+    return value
+        
 if __name__ == "__main__":
 
     URL = 'https://www.saihduero.es/resultados-risr?q=&tipo=TT'
@@ -69,7 +85,7 @@ if __name__ == "__main__":
         
         if len(rows) == 6:
             control_points.append(ControlPoint(
-                tipo_ = rows[0].text,
+                tipo_ = get_tipo(rows[0].text),
                 description_ = str(rows[1].text).replace(BACKSLASH,""),
                 provincia_ = str(rows[2].text).replace(BACKSLASH,""),
                 rio_ = str(rows[3].text).replace(BACKSLASH,""),
