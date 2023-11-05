@@ -1,5 +1,29 @@
 import requests
 from lxml import html
+from threading import Thread
+
+
+class HttpRequestThread(Thread):
+    
+    def __init__(self, url: str) -> None:
+        
+        super().__init__()
+        
+        self.url = url
+        self.http_status_code = None
+        self.reason = None
+        self.response = None
+
+    def run(self) -> None:
+        
+        try:
+            
+            self.response = extracting_cuenca_vertiente(url=self.url)
+            
+        except requests.exceptions.HTTPError as e:
+            self.http_status_code = e.code
+        except Exception as e:
+            self.reason = e.reason
 
 urls = [
 'https://www.saihduero.es/risr/EA153',
@@ -310,7 +334,6 @@ def extracting_cuenca_vertiente(url:str):
     results = tree.xpath(xpath_cuenca)
 
     if 'km2' in results and len(results) == 2:
-        
         value = results[0]
         
     tree = html.fromstring(response.content)
@@ -325,11 +348,19 @@ def extracting_cuenca_vertiente(url:str):
     if len(results_tipo) == 1:
         tipo = results_tipo[0]
     
-    return value + '\t' + nombre + '\t' + tipo + '\t' + url
+    return url + '\t' + nombre + '\t' + value + '\t' + tipo
 
-for item in urls:
-# for item in ulrs_mini:
-    
-    value = extracting_cuenca_vertiente(item)
+# A. Create new threads
+threads = [HttpRequestThread(url) for url in urls]
+# threads = [HttpRequestThread(url) for url in ulrs_mini]
 
-    print(value)
+# B. Start the threads
+[t.start() for t in threads]
+
+# C. Wait for the threads to complete
+[t.join() for t in threads]
+
+# D. Display the URLs with HTTP status codes
+[print(f'{t.response}') for t in threads]
+
+print("The end!")
